@@ -1,0 +1,2484 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Evan/.nvm/versions/node/v4.4.5/bin/node',
+1 verbose cli   '/Users/Evan/.nvm/versions/node/v4.4.5/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'discord.js',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of /Users/Evan/discord-bot/package.json
+5 warn package.json discord-bot@1.0.0 No repository field.
+6 warn package.json discord-bot@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/async-limiter/package.json
+8 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/bufferutil/package.json
+9 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/fs/package.json
+10 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/libsodium-wrappers/package.json
+11 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/long/package.json
+12 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/node-opus/package.json
+13 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/opusscript/package.json
+14 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/prism-media/package.json
+15 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/safe-buffer/package.json
+16 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/snekfetch/package.json
+17 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/tweetnacl/package.json
+18 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/uws/package.json
+19 verbose installManyTop reading scoped package data from /Users/Evan/discord-bot/node_modules/ws/package.json
+20 info package.json fs@0.0.1-security fs is also the name of a node core module.
+21 verbose readDependencies loading dependencies from /Users/Evan/discord-bot/package.json
+22 silly cache add args [ 'discord.js@^11.4.2', null ]
+23 verbose cache add spec discord.js@^11.4.2
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'discord.js@^11.4.2',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'discord.js',
+24 silly cache add   rawSpec: '^11.4.2',
+24 silly cache add   spec: '>=11.4.2 <12.0.0',
+24 silly cache add   type: 'range' }
+25 silly addNamed discord.js@>=11.4.2 <12.0.0
+26 verbose addNamed ">=11.4.2 <12.0.0" is a valid semver range for discord.js
+27 silly addNameRange { name: 'discord.js', range: '>=11.4.2 <12.0.0', hasData: false }
+28 silly mapToRegistry name discord.js
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'discord.js',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'discord.js',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npmjs.org/discord.js
+33 verbose addNameRange registry:https://registry.npmjs.org/discord.js not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/discord.js
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 11:49:58 PM
+37 verbose request id 9a5f93d3ef07d3b8
+38 verbose etag W/"2aa15a18b45e289753b13753b44eb55e"
+39 verbose lastModified Mon, 13 Aug 2018 14:22:33 GMT
+40 http request GET https://registry.npmjs.org/discord.js
+41 http 304 https://registry.npmjs.org/discord.js
+42 verbose headers { date: 'Thu, 01 Nov 2018 03:49:58 GMT',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'set-cookie': [ '__cfduid=dd906c2e7c1df811f03cd6bd652e78ec41541044198; expires=Fri, 01-Nov-19 03:49:58 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+42 verbose headers   'cf-cache-status': 'HIT',
+42 verbose headers   'cache-control': 'max-age=300',
+42 verbose headers   'cf-ray': '472b64ff4a58c1a9-IAD',
+42 verbose headers   etag: '"2aa15a18b45e289753b13753b44eb55e"',
+42 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+42 verbose headers   'last-modified': 'Mon, 13 Aug 2018 14:22:33 GMT',
+42 verbose headers   vary: 'accept-encoding, accept',
+42 verbose headers   server: 'cloudflare' }
+43 silly get cb [ 304,
+43 silly get   { date: 'Thu, 01 Nov 2018 03:49:58 GMT',
+43 silly get     connection: 'keep-alive',
+43 silly get     'set-cookie': [ '__cfduid=dd906c2e7c1df811f03cd6bd652e78ec41541044198; expires=Fri, 01-Nov-19 03:49:58 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+43 silly get     'cf-cache-status': 'HIT',
+43 silly get     'cache-control': 'max-age=300',
+43 silly get     'cf-ray': '472b64ff4a58c1a9-IAD',
+43 silly get     etag: '"2aa15a18b45e289753b13753b44eb55e"',
+43 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+43 silly get     'last-modified': 'Mon, 13 Aug 2018 14:22:33 GMT',
+43 silly get     vary: 'accept-encoding, accept',
+43 silly get     server: 'cloudflare' } ]
+44 verbose etag https://registry.npmjs.org/discord.js from cache
+45 verbose get saving discord.js to /Users/Evan/.npm/registry.npmjs.org/discord.js/.cache.json
+46 verbose correctMkdir /Users/Evan/.npm correctMkdir not in flight; initializing
+47 silly addNameRange number 2 { name: 'discord.js', range: '>=11.4.2 <12.0.0', hasData: true }
+48 silly addNameRange versions [ 'discord.js',
+48 silly addNameRange   [ '1.0.1',
+48 silly addNameRange     '1.0.2',
+48 silly addNameRange     '1.1.0',
+48 silly addNameRange     '1.2.1',
+48 silly addNameRange     '1.2.2',
+48 silly addNameRange     '2.0.0',
+48 silly addNameRange     '2.0.1',
+48 silly addNameRange     '2.0.2',
+48 silly addNameRange     '2.1.0',
+48 silly addNameRange     '2.1.1',
+48 silly addNameRange     '2.2.0',
+48 silly addNameRange     '2.2.1',
+48 silly addNameRange     '2.2.2',
+48 silly addNameRange     '2.3.0',
+48 silly addNameRange     '2.3.1',
+48 silly addNameRange     '2.4.0',
+48 silly addNameRange     '2.4.1',
+48 silly addNameRange     '2.4.2',
+48 silly addNameRange     '2.5.0',
+48 silly addNameRange     '2.6.0',
+48 silly addNameRange     '2.6.1',
+48 silly addNameRange     '2.6.2',
+48 silly addNameRange     '2.6.3',
+48 silly addNameRange     '2.6.4',
+48 silly addNameRange     '2.6.5',
+48 silly addNameRange     '2.6.6',
+48 silly addNameRange     '2.6.7',
+48 silly addNameRange     '2.6.8',
+48 silly addNameRange     '2.7.0',
+48 silly addNameRange     '2.7.1',
+48 silly addNameRange     '2.7.2',
+48 silly addNameRange     '3.0.0',
+48 silly addNameRange     '3.0.1',
+48 silly addNameRange     '3.0.2',
+48 silly addNameRange     '3.0.3',
+48 silly addNameRange     '3.1.1',
+48 silly addNameRange     '3.1.2',
+48 silly addNameRange     '3.1.3',
+48 silly addNameRange     '3.1.4',
+48 silly addNameRange     '3.1.5',
+48 silly addNameRange     '3.1.6',
+48 silly addNameRange     '3.2.0',
+48 silly addNameRange     '3.2.1',
+48 silly addNameRange     '3.3.0',
+48 silly addNameRange     '3.3.1',
+48 silly addNameRange     '3.3.2',
+48 silly addNameRange     '3.3.3',
+48 silly addNameRange     '3.3.4',
+48 silly addNameRange     '3.4.0',
+48 silly addNameRange     '3.4.1',
+48 silly addNameRange     '3.4.2',
+48 silly addNameRange     '3.5.0',
+48 silly addNameRange     '3.6.0',
+48 silly addNameRange     '3.6.1',
+48 silly addNameRange     '3.6.2',
+48 silly addNameRange     '3.6.3',
+48 silly addNameRange     '3.7.0',
+48 silly addNameRange     '3.7.1',
+48 silly addNameRange     '3.7.2',
+48 silly addNameRange     '3.8.0',
+48 silly addNameRange     '3.8.1',
+48 silly addNameRange     '3.8.2',
+48 silly addNameRange     '3.8.3',
+48 silly addNameRange     '3.9.0',
+48 silly addNameRange     '3.9.1',
+48 silly addNameRange     '3.10.0',
+48 silly addNameRange     '3.10.1',
+48 silly addNameRange     '3.10.2',
+48 silly addNameRange     '4.0.0',
+48 silly addNameRange     '4.1.0',
+48 silly addNameRange     '4.1.1',
+48 silly addNameRange     '5.0.0',
+48 silly addNameRange     '5.0.1',
+48 silly addNameRange     '5.1.0',
+48 silly addNameRange     '5.2.0',
+48 silly addNameRange     '5.3.0',
+48 silly addNameRange     '5.3.1',
+48 silly addNameRange     '5.3.2',
+48 silly addNameRange     '6.0.0',
+48 silly addNameRange     '6.1.0',
+48 silly addNameRange     '7.0.0',
+48 silly addNameRange     '7.0.1',
+48 silly addNameRange     '8.0.0',
+48 silly addNameRange     '8.1.0',
+48 silly addNameRange     '9.0.0',
+48 silly addNameRange     '9.0.1',
+48 silly addNameRange     '9.0.2',
+48 silly addNameRange     '9.1.0',
+48 silly addNameRange     '9.1.1',
+48 silly addNameRange     '9.2.0',
+48 silly addNameRange     '9.3.0',
+48 silly addNameRange     '8.2.0',
+48 silly addNameRange     '9.3.1',
+48 silly addNameRange     '10.0.0',
+48 silly addNameRange     '10.0.1',
+48 silly addNameRange     '11.0.0',
+48 silly addNameRange     '11.1.0',
+48 silly addNameRange     '11.2.0',
+48 silly addNameRange     '11.2.1',
+48 silly addNameRange     '11.3.0',
+48 silly addNameRange     '11.3.1',
+48 silly addNameRange     '11.3.2',
+48 silly addNameRange     '11.4.0',
+48 silly addNameRange     '11.4.1',
+48 silly addNameRange     '11.4.2' ] ]
+49 silly addNamed discord.js@11.4.2
+50 verbose addNamed "11.4.2" is a plain semver version for discord.js
+51 silly cache afterAdd discord.js@11.4.2
+52 verbose afterAdd /Users/Evan/.npm/discord.js/11.4.2/package/package.json not in flight; writing
+53 verbose correctMkdir /Users/Evan/.npm correctMkdir not in flight; initializing
+54 verbose afterAdd /Users/Evan/.npm/discord.js/11.4.2/package/package.json written
+55 silly install resolved [ { name: 'discord.js',
+55 silly install resolved     version: '11.4.2',
+55 silly install resolved     description: 'A powerful library for interacting with the Discord API',
+55 silly install resolved     main: './src/index',
+55 silly install resolved     types: './typings/index.d.ts',
+55 silly install resolved     scripts:
+55 silly install resolved      { test: 'npm run lint && npm run docs:test',
+55 silly install resolved        docs: 'docgen --source src --custom docs/index.yml --output docs/docs.json',
+55 silly install resolved        'docs:test': 'docgen --source src --custom docs/index.yml',
+55 silly install resolved        lint: 'eslint src',
+55 silly install resolved        'lint:fix': 'eslint --fix src',
+55 silly install resolved        webpack: 'parallel-webpack' },
+55 silly install resolved     repository:
+55 silly install resolved      { type: 'git',
+55 silly install resolved        url: 'git+https://github.com/discordjs/discord.js.git' },
+55 silly install resolved     keywords: [ 'discord', 'api', 'bot', 'client', 'node', 'discordapp' ],
+55 silly install resolved     author: { name: 'Amish Shah', email: 'amishshah.2k@gmail.com' },
+55 silly install resolved     license: 'Apache-2.0',
+55 silly install resolved     bugs: { url: 'https://github.com/discordjs/discord.js/issues' },
+55 silly install resolved     homepage: 'https://github.com/discordjs/discord.js#readme',
+55 silly install resolved     runkitExampleFilename: './docs/examples/ping.js',
+55 silly install resolved     dependencies:
+55 silly install resolved      { long: '^4.0.0',
+55 silly install resolved        'prism-media': '^0.0.3',
+55 silly install resolved        snekfetch: '^3.6.4',
+55 silly install resolved        tweetnacl: '^1.0.0',
+55 silly install resolved        ws: '^4.0.0' },
+55 silly install resolved     peerDependencies:
+55 silly install resolved      { bufferutil: '^3.0.3',
+55 silly install resolved        erlpack: 'discordapp/erlpack',
+55 silly install resolved        'node-opus': '^0.2.7',
+55 silly install resolved        opusscript: '^0.0.6',
+55 silly install resolved        sodium: '^2.0.3',
+55 silly install resolved        'libsodium-wrappers': '^0.7.3',
+55 silly install resolved        uws: '^9.14.0' },
+55 silly install resolved     devDependencies:
+55 silly install resolved      { '@types/node': '^9.4.6',
+55 silly install resolved        'discord.js-docgen': 'github:discordjs/docgen',
+55 silly install resolved        eslint: '^4.18.0',
+55 silly install resolved        'parallel-webpack': '^2.2.0',
+55 silly install resolved        'uglifyjs-webpack-plugin': '^1.2.0',
+55 silly install resolved        webpack: '^3.11.0' },
+55 silly install resolved     engines: { node: '>=6.0.0' },
+55 silly install resolved     browser:
+55 silly install resolved      { ws: false,
+55 silly install resolved        uws: false,
+55 silly install resolved        erlpack: false,
+55 silly install resolved        'prism-media': false,
+55 silly install resolved        opusscript: false,
+55 silly install resolved        'node-opus': false,
+55 silly install resolved        tweetnacl: false,
+55 silly install resolved        sodium: false,
+55 silly install resolved        'src/sharding/Shard.js': false,
+55 silly install resolved        'src/sharding/ShardClientUtil.js': false,
+55 silly install resolved        'src/sharding/ShardingManager.js': false,
+55 silly install resolved        'src/client/voice/dispatcher/StreamDispatcher.js': false,
+55 silly install resolved        'src/client/voice/opus/BaseOpusEngine.js': false,
+55 silly install resolved        'src/client/voice/opus/NodeOpusEngine.js': false,
+55 silly install resolved        'src/client/voice/opus/OpusEngineList.js': false,
+55 silly install resolved        'src/client/voice/opus/OpusScriptEngine.js': false,
+55 silly install resolved        'src/client/voice/pcm/ConverterEngine.js': false,
+55 silly install resolved        'src/client/voice/pcm/ConverterEngineList.js': false,
+55 silly install resolved        'src/client/voice/pcm/FfmpegConverterEngine.js': false,
+55 silly install resolved        'src/client/voice/player/AudioPlayer.js': false,
+55 silly install resolved        'src/client/voice/receiver/VoiceReadable.js': false,
+55 silly install resolved        'src/client/voice/receiver/VoiceReceiver.js': false,
+55 silly install resolved        'src/client/voice/util/Secretbox.js': false,
+55 silly install resolved        'src/client/voice/util/SecretKey.js': false,
+55 silly install resolved        'src/client/voice/util/VolumeInterface.js': false,
+55 silly install resolved        'src/client/voice/ClientVoiceManager.js': false,
+55 silly install resolved        'src/client/voice/VoiceBroadcast.js': false,
+55 silly install resolved        'src/client/voice/VoiceConnection.js': false,
+55 silly install resolved        'src/client/voice/VoiceUDPClient.js': false,
+55 silly install resolved        'src/client/voice/VoiceWebSocket.js': false },
+55 silly install resolved     gitHead: 'ebfbf20f07574b14f6425aaec2fd0288f3d7c872',
+55 silly install resolved     _id: 'discord.js@11.4.2',
+55 silly install resolved     _npmVersion: '6.3.0',
+55 silly install resolved     _nodeVersion: '10.8.0',
+55 silly install resolved     _npmUser: { name: 'hydrabolt', email: 'amishshah.2k@gmail.com' },
+55 silly install resolved     dist:
+55 silly install resolved      { integrity: 'sha512-MDwpu0lMFTjqomijDl1Ed9miMQe6kB4ifKdP28QZllmLv/HVOJXhatRgjS8urp/wBlOfx+qAYSXcdI5cKGYsfg==',
+55 silly install resolved        shasum: '54586981926521572051f2a30b984aad2b49786e',
+55 silly install resolved        tarball: 'https://registry.npmjs.org/discord.js/-/discord.js-11.4.2.tgz',
+55 silly install resolved        fileCount: 163,
+55 silly install resolved        unpackedSize: 687432,
+55 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbcZQiCRA9TVsSAnZWagAAMtgP/3xVBz5LGleXqPlhlpQq\nCYztD4R2TWH4uZ4kuJ8zwlCPkB/hwVqPWE/ihciq+y345k+TyB61/TnXoW6T\neH4Bnn7ZNBkzp+ufY+cEbqgU9gKQCS3CErPqrmeKNlFI/pPo2SlqJF69y4nf\nbvQEw2qMEoy0/Q3+1wp2SsflXiUeQXvzLNwXRyQmcnIDfUkN+0nL9Qpg6txb\nuNY0IBot6Q55G52KHSpvTYM9Vvxmn1asD29Ttd5QP3tmxsTl/hGMPIBPNoz7\nO+U/PaEvJu2jiO8pBd11Y5+3mTVRTyhtCfqAclLo42yxoEoBZWXNUJ4IxlWj\n4Ab3PGXr/mwig9VjuxnTDzv8hcSgOamG4vIBSfFWMcpmVBFPK5TinycrUTgi\nR5Umu+UG6R51FlqAFR7brsbdUTLDY59GGpLkaNFnZNurOEIh72v27iszCnYk\nSRAbR3TkNtGwENgaBhbZWguHyJAvp3n02x/SPA6g1f0ua10h1eSPaWmf/JIn\nWsujFakugQjjhIn4pjBebdqTZX74ilM2lF7EUeNZ0u8oZU/B+7E/XippZO52\nH2GCAg+fdFFwDpsx1wvB5TTU9H2DGMLekf3yS0tfCO2Wx3lWaNy2p6QIeWfn\nG6g1aiVpyhD8LEWfCTwrVnqMb9BZQuGrANcP831H8zezWdI5X7IQ+ljv9CuM\nVM9w\r\n=d0xW\r\n-----END PGP SIGNATURE-----\r\n' },
+55 silly install resolved     maintainers: [ [Object], [Object] ],
+55 silly install resolved     directories: {},
+55 silly install resolved     _npmOperationalInternal:
+55 silly install resolved      { host: 's3://npm-registry-packages',
+55 silly install resolved        tmp: 'tmp/discord.js_11.4.2_1534170145533_0.8767775819463979' },
+55 silly install resolved     _shasum: '54586981926521572051f2a30b984aad2b49786e',
+55 silly install resolved     _resolved: 'https://registry.npmjs.org/discord.js/-/discord.js-11.4.2.tgz',
+55 silly install resolved     _from: 'discord.js@>=11.4.2 <12.0.0',
+55 silly install resolved     readme: 'ERROR: No README data found!' } ]
+56 info install discord.js@11.4.2 into /Users/Evan/discord-bot
+57 info installOne discord.js@11.4.2
+58 verbose installOne of discord.js to /Users/Evan/discord-bot not in flight; installing
+59 verbose correctMkdir /Users/Evan/.npm/_locks correctMkdir not in flight; initializing
+60 verbose lock using /Users/Evan/.npm/_locks/discord-js-c1f29c7e80ab2a44.lock for /Users/Evan/discord-bot/node_modules/discord.js
+61 warn engine discord.js@11.4.2: wanted: {"node":">=6.0.0"} (current: {"node":"4.4.5","npm":"2.15.5"})
+62 silly install write writing discord.js 11.4.2 to /Users/Evan/discord-bot/node_modules/discord.js
+63 verbose unbuild node_modules/discord.js
+64 silly gentlyRm /Users/Evan/discord-bot/node_modules/discord.js is being purged from base /Users/Evan/discord-bot
+65 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/discord.js
+66 verbose tar unpack /Users/Evan/.npm/discord.js/11.4.2/package.tgz
+67 verbose tar unpacking to /Users/Evan/discord-bot/node_modules/discord.js
+68 silly gentlyRm /Users/Evan/discord-bot/node_modules/discord.js is being purged
+69 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/discord.js
+70 silly gunzTarPerm modes [ '755', '644' ]
+71 silly gunzTarPerm extractEntry package.json
+72 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+73 silly gunzTarPerm extractEntry .gitmodules
+74 silly gunzTarPerm modified mode [ '.gitmodules', 436, 420 ]
+75 silly gunzTarPerm extractEntry .tern-project
+76 silly gunzTarPerm modified mode [ '.tern-project', 436, 420 ]
+77 silly gunzTarPerm extractEntry browser.js
+78 silly gunzTarPerm modified mode [ 'browser.js', 436, 420 ]
+79 silly gunzTarPerm extractEntry LICENSE
+80 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+81 silly gunzTarPerm extractEntry README.md
+82 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+83 silly gunzTarPerm extractEntry src/client/actions/Action.js
+84 silly gunzTarPerm modified mode [ 'src/client/actions/Action.js', 436, 420 ]
+85 silly gunzTarPerm extractEntry src/client/actions/ActionsManager.js
+86 silly gunzTarPerm modified mode [ 'src/client/actions/ActionsManager.js', 436, 420 ]
+87 silly gunzTarPerm extractEntry src/client/actions/ChannelCreate.js
+88 silly gunzTarPerm modified mode [ 'src/client/actions/ChannelCreate.js', 436, 420 ]
+89 silly gunzTarPerm extractEntry src/client/actions/ChannelDelete.js
+90 silly gunzTarPerm modified mode [ 'src/client/actions/ChannelDelete.js', 436, 420 ]
+91 silly gunzTarPerm extractEntry src/client/actions/ChannelUpdate.js
+92 silly gunzTarPerm modified mode [ 'src/client/actions/ChannelUpdate.js', 436, 420 ]
+93 silly gunzTarPerm extractEntry src/client/actions/GuildBanRemove.js
+94 silly gunzTarPerm modified mode [ 'src/client/actions/GuildBanRemove.js', 436, 420 ]
+95 silly gunzTarPerm extractEntry src/client/actions/GuildChannelsPositionUpdate.js
+96 silly gunzTarPerm modified mode [ 'src/client/actions/GuildChannelsPositionUpdate.js', 436, 420 ]
+97 silly gunzTarPerm extractEntry src/client/actions/GuildDelete.js
+98 silly gunzTarPerm modified mode [ 'src/client/actions/GuildDelete.js', 436, 420 ]
+99 silly gunzTarPerm extractEntry src/client/actions/GuildEmojiCreate.js
+100 silly gunzTarPerm modified mode [ 'src/client/actions/GuildEmojiCreate.js', 436, 420 ]
+101 silly gunzTarPerm extractEntry src/client/actions/GuildEmojiDelete.js
+102 silly gunzTarPerm modified mode [ 'src/client/actions/GuildEmojiDelete.js', 436, 420 ]
+103 silly gunzTarPerm extractEntry src/client/actions/GuildEmojisUpdate.js
+104 silly gunzTarPerm modified mode [ 'src/client/actions/GuildEmojisUpdate.js', 436, 420 ]
+105 silly gunzTarPerm extractEntry src/client/actions/GuildEmojiUpdate.js
+106 silly gunzTarPerm modified mode [ 'src/client/actions/GuildEmojiUpdate.js', 436, 420 ]
+107 silly gunzTarPerm extractEntry src/client/actions/GuildMemberGet.js
+108 silly gunzTarPerm modified mode [ 'src/client/actions/GuildMemberGet.js', 436, 420 ]
+109 silly gunzTarPerm extractEntry src/client/actions/GuildMemberRemove.js
+110 silly gunzTarPerm modified mode [ 'src/client/actions/GuildMemberRemove.js', 436, 420 ]
+111 silly gunzTarPerm extractEntry src/client/actions/GuildRoleCreate.js
+112 silly gunzTarPerm modified mode [ 'src/client/actions/GuildRoleCreate.js', 436, 420 ]
+113 silly gunzTarPerm extractEntry src/client/actions/GuildRoleDelete.js
+114 silly gunzTarPerm modified mode [ 'src/client/actions/GuildRoleDelete.js', 436, 420 ]
+115 silly gunzTarPerm extractEntry src/client/actions/GuildRolesPositionUpdate.js
+116 silly gunzTarPerm modified mode [ 'src/client/actions/GuildRolesPositionUpdate.js', 436, 420 ]
+117 silly gunzTarPerm extractEntry src/client/actions/GuildRoleUpdate.js
+118 silly gunzTarPerm modified mode [ 'src/client/actions/GuildRoleUpdate.js', 436, 420 ]
+119 silly gunzTarPerm extractEntry src/client/actions/GuildSync.js
+120 silly gunzTarPerm modified mode [ 'src/client/actions/GuildSync.js', 436, 420 ]
+121 silly gunzTarPerm extractEntry src/client/actions/GuildUpdate.js
+122 silly gunzTarPerm modified mode [ 'src/client/actions/GuildUpdate.js', 436, 420 ]
+123 silly gunzTarPerm extractEntry src/client/actions/MessageCreate.js
+124 silly gunzTarPerm modified mode [ 'src/client/actions/MessageCreate.js', 436, 420 ]
+125 silly gunzTarPerm extractEntry src/client/actions/MessageDelete.js
+126 silly gunzTarPerm modified mode [ 'src/client/actions/MessageDelete.js', 436, 420 ]
+127 silly gunzTarPerm extractEntry src/client/actions/MessageDeleteBulk.js
+128 silly gunzTarPerm modified mode [ 'src/client/actions/MessageDeleteBulk.js', 436, 420 ]
+129 silly gunzTarPerm extractEntry src/client/actions/MessageReactionAdd.js
+130 silly gunzTarPerm modified mode [ 'src/client/actions/MessageReactionAdd.js', 436, 420 ]
+131 silly gunzTarPerm extractEntry src/client/actions/MessageReactionRemove.js
+132 silly gunzTarPerm modified mode [ 'src/client/actions/MessageReactionRemove.js', 436, 420 ]
+133 silly gunzTarPerm extractEntry src/client/actions/MessageReactionRemoveAll.js
+134 silly gunzTarPerm modified mode [ 'src/client/actions/MessageReactionRemoveAll.js', 436, 420 ]
+135 silly gunzTarPerm extractEntry src/client/actions/MessageUpdate.js
+136 silly gunzTarPerm modified mode [ 'src/client/actions/MessageUpdate.js', 436, 420 ]
+137 silly gunzTarPerm extractEntry src/client/actions/UserGet.js
+138 silly gunzTarPerm modified mode [ 'src/client/actions/UserGet.js', 436, 420 ]
+139 silly gunzTarPerm extractEntry src/client/actions/UserNoteUpdate.js
+140 silly gunzTarPerm modified mode [ 'src/client/actions/UserNoteUpdate.js', 436, 420 ]
+141 silly gunzTarPerm extractEntry src/client/actions/UserUpdate.js
+142 silly gunzTarPerm modified mode [ 'src/client/actions/UserUpdate.js', 436, 420 ]
+143 silly gunzTarPerm extractEntry src/client/Client.js
+144 silly gunzTarPerm modified mode [ 'src/client/Client.js', 436, 420 ]
+145 silly gunzTarPerm extractEntry src/client/ClientDataManager.js
+146 silly gunzTarPerm modified mode [ 'src/client/ClientDataManager.js', 436, 420 ]
+147 silly gunzTarPerm extractEntry src/client/ClientDataResolver.js
+148 silly gunzTarPerm modified mode [ 'src/client/ClientDataResolver.js', 436, 420 ]
+149 silly gunzTarPerm extractEntry src/client/ClientManager.js
+150 silly gunzTarPerm modified mode [ 'src/client/ClientManager.js', 436, 420 ]
+151 silly gunzTarPerm extractEntry src/client/rest/APIRequest.js
+152 silly gunzTarPerm modified mode [ 'src/client/rest/APIRequest.js', 436, 420 ]
+153 silly gunzTarPerm extractEntry src/client/rest/DiscordAPIError.js
+154 silly gunzTarPerm modified mode [ 'src/client/rest/DiscordAPIError.js', 436, 420 ]
+155 silly gunzTarPerm extractEntry src/client/rest/RequestHandlers/Burst.js
+156 silly gunzTarPerm modified mode [ 'src/client/rest/RequestHandlers/Burst.js', 436, 420 ]
+157 silly gunzTarPerm extractEntry src/client/rest/RequestHandlers/RequestHandler.js
+158 silly gunzTarPerm modified mode [ 'src/client/rest/RequestHandlers/RequestHandler.js', 436, 420 ]
+159 silly gunzTarPerm extractEntry src/client/rest/RequestHandlers/Sequential.js
+160 silly gunzTarPerm modified mode [ 'src/client/rest/RequestHandlers/Sequential.js', 436, 420 ]
+161 silly gunzTarPerm extractEntry src/client/rest/RESTManager.js
+162 silly gunzTarPerm modified mode [ 'src/client/rest/RESTManager.js', 436, 420 ]
+163 silly gunzTarPerm extractEntry src/client/rest/RESTMethods.js
+164 silly gunzTarPerm modified mode [ 'src/client/rest/RESTMethods.js', 436, 420 ]
+165 silly gunzTarPerm extractEntry src/client/rest/UserAgentManager.js
+166 silly gunzTarPerm modified mode [ 'src/client/rest/UserAgentManager.js', 436, 420 ]
+167 silly gunzTarPerm extractEntry src/client/voice/ClientVoiceManager.js
+168 silly gunzTarPerm modified mode [ 'src/client/voice/ClientVoiceManager.js', 436, 420 ]
+169 silly gunzTarPerm extractEntry src/client/voice/dispatcher/StreamDispatcher.js
+170 silly gunzTarPerm modified mode [ 'src/client/voice/dispatcher/StreamDispatcher.js', 436, 420 ]
+171 silly gunzTarPerm extractEntry src/client/voice/opus/BaseOpusEngine.js
+172 silly gunzTarPerm modified mode [ 'src/client/voice/opus/BaseOpusEngine.js', 436, 420 ]
+173 silly gunzTarPerm extractEntry src/client/voice/opus/NodeOpusEngine.js
+174 silly gunzTarPerm modified mode [ 'src/client/voice/opus/NodeOpusEngine.js', 436, 420 ]
+175 silly gunzTarPerm extractEntry src/client/voice/opus/OpusEngineList.js
+176 silly gunzTarPerm modified mode [ 'src/client/voice/opus/OpusEngineList.js', 436, 420 ]
+177 silly gunzTarPerm extractEntry src/client/voice/opus/OpusScriptEngine.js
+178 silly gunzTarPerm modified mode [ 'src/client/voice/opus/OpusScriptEngine.js', 436, 420 ]
+179 silly gunzTarPerm extractEntry src/client/voice/player/AudioPlayer.js
+180 silly gunzTarPerm modified mode [ 'src/client/voice/player/AudioPlayer.js', 436, 420 ]
+181 silly gunzTarPerm extractEntry src/client/voice/receiver/VoiceReadable.js
+182 silly gunzTarPerm modified mode [ 'src/client/voice/receiver/VoiceReadable.js', 436, 420 ]
+183 silly gunzTarPerm extractEntry src/client/voice/receiver/VoiceReceiver.js
+184 silly gunzTarPerm modified mode [ 'src/client/voice/receiver/VoiceReceiver.js', 436, 420 ]
+185 silly gunzTarPerm extractEntry src/client/voice/util/Secretbox.js
+186 silly gunzTarPerm modified mode [ 'src/client/voice/util/Secretbox.js', 436, 420 ]
+187 silly gunzTarPerm extractEntry src/client/voice/util/SecretKey.js
+188 silly gunzTarPerm modified mode [ 'src/client/voice/util/SecretKey.js', 436, 420 ]
+189 silly gunzTarPerm extractEntry src/client/voice/util/VolumeInterface.js
+190 silly gunzTarPerm modified mode [ 'src/client/voice/util/VolumeInterface.js', 436, 420 ]
+191 silly gunzTarPerm extractEntry src/client/voice/VoiceBroadcast.js
+192 silly gunzTarPerm modified mode [ 'src/client/voice/VoiceBroadcast.js', 436, 420 ]
+193 silly gunzTarPerm extractEntry src/client/voice/VoiceConnection.js
+194 silly gunzTarPerm modified mode [ 'src/client/voice/VoiceConnection.js', 436, 420 ]
+195 silly gunzTarPerm extractEntry src/client/voice/VoiceUDPClient.js
+196 silly gunzTarPerm modified mode [ 'src/client/voice/VoiceUDPClient.js', 436, 420 ]
+197 silly gunzTarPerm extractEntry src/client/voice/VoiceWebSocket.js
+198 silly gunzTarPerm modified mode [ 'src/client/voice/VoiceWebSocket.js', 436, 420 ]
+199 silly gunzTarPerm extractEntry src/client/WebhookClient.js
+200 silly gunzTarPerm modified mode [ 'src/client/WebhookClient.js', 436, 420 ]
+201 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/AbstractHandler.js
+202 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/AbstractHandler.js',
+202 silly gunzTarPerm   436,
+202 silly gunzTarPerm   420 ]
+203 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/ChannelCreate.js
+204 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/ChannelCreate.js',
+204 silly gunzTarPerm   436,
+204 silly gunzTarPerm   420 ]
+205 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/ChannelDelete.js
+206 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/ChannelDelete.js',
+206 silly gunzTarPerm   436,
+206 silly gunzTarPerm   420 ]
+207 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/ChannelPinsUpdate.js
+208 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/ChannelPinsUpdate.js',
+208 silly gunzTarPerm   436,
+208 silly gunzTarPerm   420 ]
+209 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/ChannelUpdate.js
+210 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/ChannelUpdate.js',
+210 silly gunzTarPerm   436,
+210 silly gunzTarPerm   420 ]
+211 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildBanAdd.js
+212 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildBanAdd.js',
+212 silly gunzTarPerm   436,
+212 silly gunzTarPerm   420 ]
+213 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildBanRemove.js
+214 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildBanRemove.js',
+214 silly gunzTarPerm   436,
+214 silly gunzTarPerm   420 ]
+215 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildCreate.js
+216 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildCreate.js',
+216 silly gunzTarPerm   436,
+216 silly gunzTarPerm   420 ]
+217 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildDelete.js
+218 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildDelete.js',
+218 silly gunzTarPerm   436,
+218 silly gunzTarPerm   420 ]
+219 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildEmojisUpdate.js
+220 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildEmojisUpdate.js',
+220 silly gunzTarPerm   436,
+220 silly gunzTarPerm   420 ]
+221 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildMemberAdd.js
+222 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildMemberAdd.js',
+222 silly gunzTarPerm   436,
+222 silly gunzTarPerm   420 ]
+223 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildMemberRemove.js
+224 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildMemberRemove.js',
+224 silly gunzTarPerm   436,
+224 silly gunzTarPerm   420 ]
+225 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildMembersChunk.js
+226 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildMembersChunk.js',
+226 silly gunzTarPerm   436,
+226 silly gunzTarPerm   420 ]
+227 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildMemberUpdate.js
+228 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildMemberUpdate.js',
+228 silly gunzTarPerm   436,
+228 silly gunzTarPerm   420 ]
+229 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildRoleCreate.js
+230 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildRoleCreate.js',
+230 silly gunzTarPerm   436,
+230 silly gunzTarPerm   420 ]
+231 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildRoleDelete.js
+232 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildRoleDelete.js',
+232 silly gunzTarPerm   436,
+232 silly gunzTarPerm   420 ]
+233 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildRoleUpdate.js
+234 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildRoleUpdate.js',
+234 silly gunzTarPerm   436,
+234 silly gunzTarPerm   420 ]
+235 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildSync.js
+236 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildSync.js',
+236 silly gunzTarPerm   436,
+236 silly gunzTarPerm   420 ]
+237 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/GuildUpdate.js
+238 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/GuildUpdate.js',
+238 silly gunzTarPerm   436,
+238 silly gunzTarPerm   420 ]
+239 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/MessageCreate.js
+240 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/MessageCreate.js',
+240 silly gunzTarPerm   436,
+240 silly gunzTarPerm   420 ]
+241 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/MessageDelete.js
+242 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/MessageDelete.js',
+242 silly gunzTarPerm   436,
+242 silly gunzTarPerm   420 ]
+243 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/MessageDeleteBulk.js
+244 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/MessageDeleteBulk.js',
+244 silly gunzTarPerm   436,
+244 silly gunzTarPerm   420 ]
+245 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/MessageReactionAdd.js
+246 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/MessageReactionAdd.js',
+246 silly gunzTarPerm   436,
+246 silly gunzTarPerm   420 ]
+247 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/MessageReactionRemove.js
+248 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/MessageReactionRemove.js',
+248 silly gunzTarPerm   436,
+248 silly gunzTarPerm   420 ]
+249 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/MessageReactionRemoveAll.js
+250 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/MessageReactionRemoveAll.js',
+250 silly gunzTarPerm   436,
+250 silly gunzTarPerm   420 ]
+251 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/MessageUpdate.js
+252 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/MessageUpdate.js',
+252 silly gunzTarPerm   436,
+252 silly gunzTarPerm   420 ]
+253 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/PresenceUpdate.js
+254 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/PresenceUpdate.js',
+254 silly gunzTarPerm   436,
+254 silly gunzTarPerm   420 ]
+255 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/Ready.js
+256 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/Ready.js', 436, 420 ]
+257 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/RelationshipAdd.js
+258 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/RelationshipAdd.js',
+258 silly gunzTarPerm   436,
+258 silly gunzTarPerm   420 ]
+259 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/RelationshipRemove.js
+260 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/RelationshipRemove.js',
+260 silly gunzTarPerm   436,
+260 silly gunzTarPerm   420 ]
+261 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/Resumed.js
+262 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/Resumed.js', 436, 420 ]
+263 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/TypingStart.js
+264 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/TypingStart.js',
+264 silly gunzTarPerm   436,
+264 silly gunzTarPerm   420 ]
+265 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/UserGuildSettingsUpdate.js
+266 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/UserGuildSettingsUpdate.js',
+266 silly gunzTarPerm   436,
+266 silly gunzTarPerm   420 ]
+267 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/UserNoteUpdate.js
+268 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/UserNoteUpdate.js',
+268 silly gunzTarPerm   436,
+268 silly gunzTarPerm   420 ]
+269 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/UserSettingsUpdate.js
+270 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/UserSettingsUpdate.js',
+270 silly gunzTarPerm   436,
+270 silly gunzTarPerm   420 ]
+271 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/UserUpdate.js
+272 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/UserUpdate.js',
+272 silly gunzTarPerm   436,
+272 silly gunzTarPerm   420 ]
+273 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/VoiceServerUpdate.js
+274 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/VoiceServerUpdate.js',
+274 silly gunzTarPerm   436,
+274 silly gunzTarPerm   420 ]
+275 silly gunzTarPerm extractEntry src/client/websocket/packets/handlers/VoiceStateUpdate.js
+276 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/handlers/VoiceStateUpdate.js',
+276 silly gunzTarPerm   436,
+276 silly gunzTarPerm   420 ]
+277 silly gunzTarPerm extractEntry src/client/websocket/packets/WebSocketPacketManager.js
+278 silly gunzTarPerm modified mode [ 'src/client/websocket/packets/WebSocketPacketManager.js',
+278 silly gunzTarPerm   436,
+278 silly gunzTarPerm   420 ]
+279 silly gunzTarPerm extractEntry src/client/websocket/WebSocketConnection.js
+280 silly gunzTarPerm modified mode [ 'src/client/websocket/WebSocketConnection.js', 436, 420 ]
+281 silly gunzTarPerm extractEntry src/client/websocket/WebSocketManager.js
+282 silly gunzTarPerm modified mode [ 'src/client/websocket/WebSocketManager.js', 436, 420 ]
+283 silly gunzTarPerm extractEntry src/index.js
+284 silly gunzTarPerm modified mode [ 'src/index.js', 436, 420 ]
+285 silly gunzTarPerm extractEntry src/sharding/Shard.js
+286 silly gunzTarPerm modified mode [ 'src/sharding/Shard.js', 436, 420 ]
+287 silly gunzTarPerm extractEntry src/sharding/ShardClientUtil.js
+288 silly gunzTarPerm modified mode [ 'src/sharding/ShardClientUtil.js', 436, 420 ]
+289 silly gunzTarPerm extractEntry src/sharding/ShardingManager.js
+290 silly gunzTarPerm modified mode [ 'src/sharding/ShardingManager.js', 436, 420 ]
+291 silly gunzTarPerm extractEntry src/structures/Attachment.js
+292 silly gunzTarPerm modified mode [ 'src/structures/Attachment.js', 436, 420 ]
+293 silly gunzTarPerm extractEntry src/structures/CategoryChannel.js
+294 silly gunzTarPerm modified mode [ 'src/structures/CategoryChannel.js', 436, 420 ]
+295 silly gunzTarPerm extractEntry src/structures/Channel.js
+296 silly gunzTarPerm modified mode [ 'src/structures/Channel.js', 436, 420 ]
+297 silly gunzTarPerm extractEntry src/structures/ClientUser.js
+298 silly gunzTarPerm modified mode [ 'src/structures/ClientUser.js', 436, 420 ]
+299 silly gunzTarPerm extractEntry src/structures/ClientUserChannelOverride.js
+300 silly gunzTarPerm modified mode [ 'src/structures/ClientUserChannelOverride.js', 436, 420 ]
+301 silly gunzTarPerm extractEntry src/structures/ClientUserGuildSettings.js
+302 silly gunzTarPerm modified mode [ 'src/structures/ClientUserGuildSettings.js', 436, 420 ]
+303 silly gunzTarPerm extractEntry src/structures/ClientUserSettings.js
+304 silly gunzTarPerm modified mode [ 'src/structures/ClientUserSettings.js', 436, 420 ]
+305 silly gunzTarPerm extractEntry src/structures/DMChannel.js
+306 silly gunzTarPerm modified mode [ 'src/structures/DMChannel.js', 436, 420 ]
+307 silly gunzTarPerm extractEntry src/structures/Emoji.js
+308 silly gunzTarPerm modified mode [ 'src/structures/Emoji.js', 436, 420 ]
+309 silly gunzTarPerm extractEntry src/structures/GroupDMChannel.js
+310 silly gunzTarPerm modified mode [ 'src/structures/GroupDMChannel.js', 436, 420 ]
+311 silly gunzTarPerm extractEntry src/structures/Guild.js
+312 silly gunzTarPerm modified mode [ 'src/structures/Guild.js', 436, 420 ]
+313 silly gunzTarPerm extractEntry src/structures/GuildAuditLogs.js
+314 silly gunzTarPerm modified mode [ 'src/structures/GuildAuditLogs.js', 436, 420 ]
+315 silly gunzTarPerm extractEntry src/structures/GuildChannel.js
+316 silly gunzTarPerm modified mode [ 'src/structures/GuildChannel.js', 436, 420 ]
+317 silly gunzTarPerm extractEntry src/structures/GuildMember.js
+318 silly gunzTarPerm modified mode [ 'src/structures/GuildMember.js', 436, 420 ]
+319 silly gunzTarPerm extractEntry src/structures/interfaces/Collector.js
+320 silly gunzTarPerm modified mode [ 'src/structures/interfaces/Collector.js', 436, 420 ]
+321 silly gunzTarPerm extractEntry src/structures/interfaces/TextBasedChannel.js
+322 silly gunzTarPerm modified mode [ 'src/structures/interfaces/TextBasedChannel.js', 436, 420 ]
+323 silly gunzTarPerm extractEntry src/structures/Invite.js
+324 silly gunzTarPerm modified mode [ 'src/structures/Invite.js', 436, 420 ]
+325 silly gunzTarPerm extractEntry src/structures/Message.js
+326 silly gunzTarPerm modified mode [ 'src/structures/Message.js', 436, 420 ]
+327 silly gunzTarPerm extractEntry src/structures/MessageAttachment.js
+328 silly gunzTarPerm modified mode [ 'src/structures/MessageAttachment.js', 436, 420 ]
+329 silly gunzTarPerm extractEntry src/structures/MessageCollector.js
+330 silly gunzTarPerm modified mode [ 'src/structures/MessageCollector.js', 436, 420 ]
+331 silly gunzTarPerm extractEntry src/structures/MessageEmbed.js
+332 silly gunzTarPerm modified mode [ 'src/structures/MessageEmbed.js', 436, 420 ]
+333 silly gunzTarPerm extractEntry src/structures/MessageMentions.js
+334 silly gunzTarPerm modified mode [ 'src/structures/MessageMentions.js', 436, 420 ]
+335 silly gunzTarPerm extractEntry src/structures/MessageReaction.js
+336 silly gunzTarPerm modified mode [ 'src/structures/MessageReaction.js', 436, 420 ]
+337 silly gunzTarPerm extractEntry src/structures/OAuth2Application.js
+338 silly gunzTarPerm modified mode [ 'src/structures/OAuth2Application.js', 436, 420 ]
+339 silly gunzTarPerm extractEntry src/structures/PartialGuild.js
+340 silly gunzTarPerm modified mode [ 'src/structures/PartialGuild.js', 436, 420 ]
+341 silly gunzTarPerm extractEntry src/structures/PartialGuildChannel.js
+342 silly gunzTarPerm modified mode [ 'src/structures/PartialGuildChannel.js', 436, 420 ]
+343 silly gunzTarPerm extractEntry src/structures/PermissionOverwrites.js
+344 silly gunzTarPerm modified mode [ 'src/structures/PermissionOverwrites.js', 436, 420 ]
+345 silly gunzTarPerm extractEntry src/structures/Presence.js
+346 silly gunzTarPerm modified mode [ 'src/structures/Presence.js', 436, 420 ]
+347 silly gunzTarPerm extractEntry src/structures/ReactionCollector.js
+348 silly gunzTarPerm modified mode [ 'src/structures/ReactionCollector.js', 436, 420 ]
+349 silly gunzTarPerm extractEntry src/structures/ReactionEmoji.js
+350 silly gunzTarPerm modified mode [ 'src/structures/ReactionEmoji.js', 436, 420 ]
+351 silly gunzTarPerm extractEntry src/structures/RichEmbed.js
+352 silly gunzTarPerm modified mode [ 'src/structures/RichEmbed.js', 436, 420 ]
+353 silly gunzTarPerm extractEntry src/structures/Role.js
+354 silly gunzTarPerm modified mode [ 'src/structures/Role.js', 436, 420 ]
+355 silly gunzTarPerm extractEntry src/structures/shared/resolvePermissions.js
+356 silly gunzTarPerm modified mode [ 'src/structures/shared/resolvePermissions.js', 436, 420 ]
+357 silly gunzTarPerm extractEntry src/structures/TextChannel.js
+358 silly gunzTarPerm modified mode [ 'src/structures/TextChannel.js', 436, 420 ]
+359 silly gunzTarPerm extractEntry src/structures/User.js
+360 silly gunzTarPerm modified mode [ 'src/structures/User.js', 436, 420 ]
+361 silly gunzTarPerm extractEntry src/structures/UserConnection.js
+362 silly gunzTarPerm modified mode [ 'src/structures/UserConnection.js', 436, 420 ]
+363 silly gunzTarPerm extractEntry src/structures/UserProfile.js
+364 silly gunzTarPerm modified mode [ 'src/structures/UserProfile.js', 436, 420 ]
+365 silly gunzTarPerm extractEntry src/structures/VoiceChannel.js
+366 silly gunzTarPerm modified mode [ 'src/structures/VoiceChannel.js', 436, 420 ]
+367 silly gunzTarPerm extractEntry src/structures/VoiceRegion.js
+368 silly gunzTarPerm modified mode [ 'src/structures/VoiceRegion.js', 436, 420 ]
+369 silly gunzTarPerm extractEntry src/structures/Webhook.js
+370 silly gunzTarPerm modified mode [ 'src/structures/Webhook.js', 436, 420 ]
+371 silly gunzTarPerm extractEntry src/util/Collection.js
+372 silly gunzTarPerm modified mode [ 'src/util/Collection.js', 436, 420 ]
+373 silly gunzTarPerm extractEntry src/util/Constants.js
+374 silly gunzTarPerm modified mode [ 'src/util/Constants.js', 436, 420 ]
+375 silly gunzTarPerm extractEntry src/util/Permissions.js
+376 silly gunzTarPerm modified mode [ 'src/util/Permissions.js', 436, 420 ]
+377 silly gunzTarPerm extractEntry src/util/Snowflake.js
+378 silly gunzTarPerm modified mode [ 'src/util/Snowflake.js', 436, 420 ]
+379 silly gunzTarPerm extractEntry src/util/Util.js
+380 silly gunzTarPerm modified mode [ 'src/util/Util.js', 436, 420 ]
+381 silly gunzTarPerm extractEntry typings/.git
+382 silly gunzTarPerm modified mode [ 'typings/.git', 436, 420 ]
+383 silly gunzTarPerm extractEntry typings/discord.js-test.ts
+384 silly gunzTarPerm modified mode [ 'typings/discord.js-test.ts', 436, 420 ]
+385 silly gunzTarPerm extractEntry typings/index.d.ts
+386 silly gunzTarPerm modified mode [ 'typings/index.d.ts', 436, 420 ]
+387 silly gunzTarPerm extractEntry typings/LICENSE
+388 silly gunzTarPerm modified mode [ 'typings/LICENSE', 436, 420 ]
+389 silly gunzTarPerm extractEntry typings/package.json
+390 silly gunzTarPerm modified mode [ 'typings/package.json', 436, 420 ]
+391 silly gunzTarPerm extractEntry typings/README.md
+392 silly gunzTarPerm modified mode [ 'typings/README.md', 436, 420 ]
+393 silly gunzTarPerm extractEntry typings/tsconfig.json
+394 silly gunzTarPerm modified mode [ 'typings/tsconfig.json', 436, 420 ]
+395 silly gunzTarPerm extractEntry typings/tslint.json
+396 silly gunzTarPerm modified mode [ 'typings/tslint.json', 436, 420 ]
+397 verbose write writing to /Users/Evan/discord-bot/node_modules/discord.js/package.json
+398 info preinstall discord.js@11.4.2
+399 verbose readDependencies loading dependencies from /Users/Evan/discord-bot/node_modules/discord.js/package.json
+400 silly prepareForInstallMany adding erlpack@discordapp/erlpack from discord.js peerDependencies
+401 silly prepareForInstallMany adding sodium@^2.0.3 from discord.js peerDependencies
+402 warn peerDependencies The peer dependency erlpack@discordapp/erlpack included from discord.js will no
+403 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+404 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+405 warn peerDependencies The peer dependency sodium@^2.0.3 included from discord.js will no
+406 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+407 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+408 verbose readDependencies loading dependencies from /Users/Evan/discord-bot/node_modules/discord.js/package.json
+409 silly install resolved []
+410 verbose about to build /Users/Evan/discord-bot/node_modules/discord.js
+411 info build /Users/Evan/discord-bot/node_modules/discord.js
+412 info linkStuff discord.js@11.4.2
+413 silly linkStuff discord.js@11.4.2 has /Users/Evan/discord-bot/node_modules as its parent node_modules
+414 verbose linkBins discord.js@11.4.2
+415 verbose linkMans discord.js@11.4.2
+416 verbose rebuildBundles discord.js@11.4.2
+417 info install discord.js@11.4.2
+418 info postinstall discord.js@11.4.2
+419 verbose readDependencies loading dependencies from /Users/Evan/discord-bot/package.json
+420 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/async-limiter/package.json
+421 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/bufferutil/package.json
+422 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/discord.js/package.json
+423 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/fs/package.json
+424 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/libsodium-wrappers/package.json
+425 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/long/package.json
+426 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/node-opus/package.json
+427 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/opusscript/package.json
+428 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/prism-media/package.json
+429 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/safe-buffer/package.json
+430 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/snekfetch/package.json
+431 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/tweetnacl/package.json
+432 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/uws/package.json
+433 verbose targetResolver reading package data from /Users/Evan/discord-bot/node_modules/ws/package.json
+434 silly cache add args [ 'sodium@^2.0.3', null ]
+435 verbose cache add spec sodium@^2.0.3
+436 silly cache add parsed spec Result {
+436 silly cache add   raw: 'sodium@^2.0.3',
+436 silly cache add   scope: null,
+436 silly cache add   name: 'sodium',
+436 silly cache add   rawSpec: '^2.0.3',
+436 silly cache add   spec: '>=2.0.3 <3.0.0',
+436 silly cache add   type: 'range' }
+437 silly addNamed sodium@>=2.0.3 <3.0.0
+438 verbose addNamed ">=2.0.3 <3.0.0" is a valid semver range for sodium
+439 silly addNameRange { name: 'sodium', range: '>=2.0.3 <3.0.0', hasData: false }
+440 silly mapToRegistry name sodium
+441 silly mapToRegistry using default registry
+442 silly mapToRegistry registry https://registry.npmjs.org/
+443 silly mapToRegistry data Result {
+443 silly mapToRegistry   raw: 'sodium',
+443 silly mapToRegistry   scope: null,
+443 silly mapToRegistry   name: 'sodium',
+443 silly mapToRegistry   rawSpec: '',
+443 silly mapToRegistry   spec: 'latest',
+443 silly mapToRegistry   type: 'tag' }
+444 silly mapToRegistry uri https://registry.npmjs.org/sodium
+445 verbose addNameRange registry:https://registry.npmjs.org/sodium not in flight; fetching
+446 silly cache add args [ 'erlpack@discordapp/erlpack', null ]
+447 verbose cache add spec erlpack@discordapp/erlpack
+448 silly cache add parsed spec Result {
+448 silly cache add   raw: 'erlpack@discordapp/erlpack',
+448 silly cache add   scope: null,
+448 silly cache add   name: 'erlpack',
+448 silly cache add   rawSpec: 'discordapp/erlpack',
+448 silly cache add   spec: 'github:discordapp/erlpack',
+448 silly cache add   type: 'hosted',
+448 silly cache add   hosted:
+448 silly cache add    { type: 'github',
+448 silly cache add      ssh: 'git@github.com:discordapp/erlpack.git',
+448 silly cache add      sshUrl: 'git+ssh://git@github.com/discordapp/erlpack.git',
+448 silly cache add      httpsUrl: 'git+https://github.com/discordapp/erlpack.git',
+448 silly cache add      gitUrl: 'git://github.com/discordapp/erlpack.git',
+448 silly cache add      shortcut: 'github:discordapp/erlpack',
+448 silly cache add      directUrl: 'https://raw.githubusercontent.com/discordapp/erlpack/master/package.json' } }
+449 verbose addRemoteGit caching discordapp/erlpack
+450 verbose addRemoteGit discordapp/erlpack is a repository hosted by github
+451 silly tryGitProto attempting to clone git://github.com/discordapp/erlpack.git
+452 silly tryClone cloning discordapp/erlpack via git://github.com/discordapp/erlpack.git
+453 verbose tryClone git-github-com-discordapp-erlpack-git-917e4b33 not in flight; caching
+454 verbose correctMkdir /Users/Evan/.npm/_git-remotes correctMkdir not in flight; initializing
+455 verbose request uri https://registry.npmjs.org/sodium
+456 verbose request no auth needed
+457 info attempt registry request try #1 at 11:49:58 PM
+458 verbose etag W/"f5c3cab7a29e73841cd1f1ac6b7e15cb"
+459 verbose lastModified Sun, 27 May 2018 17:47:42 GMT
+460 http request GET https://registry.npmjs.org/sodium
+461 info git [ 'config', '--get', 'remote.origin.url' ]
+462 silly validateExistingRemote discordapp/erlpack remote.origin.url: git://github.com/discordapp/erlpack.git
+463 verbose validateExistingRemote discordapp/erlpack is updating existing cached remote /Users/Evan/.npm/_git-remotes/git-github-com-discordapp-erlpack-git-917e4b33
+464 info git [ 'fetch', '-a', 'origin' ]
+465 http 304 https://registry.npmjs.org/sodium
+466 verbose headers { date: 'Thu, 01 Nov 2018 03:49:58 GMT',
+466 verbose headers   connection: 'keep-alive',
+466 verbose headers   'set-cookie': [ '__cfduid=dd906c2e7c1df811f03cd6bd652e78ec41541044198; expires=Fri, 01-Nov-19 03:49:58 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+466 verbose headers   'cf-cache-status': 'HIT',
+466 verbose headers   'cache-control': 'max-age=300',
+466 verbose headers   'cf-ray': '472b6501b8e7c1a9-IAD',
+466 verbose headers   etag: '"f5c3cab7a29e73841cd1f1ac6b7e15cb"',
+466 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+466 verbose headers   'last-modified': 'Sun, 27 May 2018 17:47:42 GMT',
+466 verbose headers   vary: 'accept-encoding, accept',
+466 verbose headers   server: 'cloudflare' }
+467 silly get cb [ 304,
+467 silly get   { date: 'Thu, 01 Nov 2018 03:49:58 GMT',
+467 silly get     connection: 'keep-alive',
+467 silly get     'set-cookie': [ '__cfduid=dd906c2e7c1df811f03cd6bd652e78ec41541044198; expires=Fri, 01-Nov-19 03:49:58 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+467 silly get     'cf-cache-status': 'HIT',
+467 silly get     'cache-control': 'max-age=300',
+467 silly get     'cf-ray': '472b6501b8e7c1a9-IAD',
+467 silly get     etag: '"f5c3cab7a29e73841cd1f1ac6b7e15cb"',
+467 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+467 silly get     'last-modified': 'Sun, 27 May 2018 17:47:42 GMT',
+467 silly get     vary: 'accept-encoding, accept',
+467 silly get     server: 'cloudflare' } ]
+468 verbose etag https://registry.npmjs.org/sodium from cache
+469 verbose get saving sodium to /Users/Evan/.npm/registry.npmjs.org/sodium/.cache.json
+470 verbose correctMkdir /Users/Evan/.npm correctMkdir not in flight; initializing
+471 silly addNameRange number 2 { name: 'sodium', range: '>=2.0.3 <3.0.0', hasData: true }
+472 silly addNameRange versions [ 'sodium',
+472 silly addNameRange   [ '1.0.0',
+472 silly addNameRange     '1.0.1',
+472 silly addNameRange     '1.0.2',
+472 silly addNameRange     '1.0.5',
+472 silly addNameRange     '1.0.6',
+472 silly addNameRange     '1.0.9',
+472 silly addNameRange     '1.0.10',
+472 silly addNameRange     '1.0.11',
+472 silly addNameRange     '1.0.13',
+472 silly addNameRange     '1.0.15',
+472 silly addNameRange     '1.0.16',
+472 silly addNameRange     '1.0.17',
+472 silly addNameRange     '1.0.18',
+472 silly addNameRange     '1.0.19',
+472 silly addNameRange     '1.0.20',
+472 silly addNameRange     '1.0.21',
+472 silly addNameRange     '1.0.22',
+472 silly addNameRange     '1.1.0',
+472 silly addNameRange     '1.1.1',
+472 silly addNameRange     '1.1.2',
+472 silly addNameRange     '1.1.3',
+472 silly addNameRange     '1.1.5',
+472 silly addNameRange     '1.1.6',
+472 silly addNameRange     '1.1.7',
+472 silly addNameRange     '1.1.9',
+472 silly addNameRange     '1.1.10',
+472 silly addNameRange     '1.1.11',
+472 silly addNameRange     '1.1.12',
+472 silly addNameRange     '1.1.13',
+472 silly addNameRange     '1.1.14',
+472 silly addNameRange     '1.1.15',
+472 silly addNameRange     '1.1.16',
+472 silly addNameRange     '1.2.0',
+472 silly addNameRange     '1.2.1',
+472 silly addNameRange     '1.2.2',
+472 silly addNameRange     '1.2.3',
+472 silly addNameRange     '2.0.1',
+472 silly addNameRange     '2.0.3' ] ]
+473 silly addNamed sodium@2.0.3
+474 verbose addNamed "2.0.3" is a plain semver version for sodium
+475 silly cache afterAdd sodium@2.0.3
+476 verbose afterAdd /Users/Evan/.npm/sodium/2.0.3/package/package.json not in flight; writing
+477 verbose correctMkdir /Users/Evan/.npm correctMkdir not in flight; initializing
+478 verbose afterAdd /Users/Evan/.npm/sodium/2.0.3/package/package.json written
+479 verbose updateRemote git fetch -a origin (git://github.com/discordapp/erlpack.git)
+480 verbose correctMkdir /Users/Evan/.npm/_git-remotes correctMkdir not in flight; initializing
+481 verbose setPermissions discordapp/erlpack set permissions on /Users/Evan/.npm/_git-remotes/git-github-com-discordapp-erlpack-git-917e4b33
+482 verbose resolveHead discordapp/erlpack original treeish: master
+483 info git [ 'rev-list', '-n1', 'master' ]
+484 silly resolveHead discordapp/erlpack resolved treeish: 674ebfd3439ba4b7ce616709821d27630f7cdc61
+485 verbose resolveHead discordapp/erlpack resolved Git URL: git://github.com/discordapp/erlpack.git#674ebfd3439ba4b7ce616709821d27630f7cdc61
+486 silly resolveHead Git working directory: /var/folders/ns/kc3snx1s6_s4002y241_w94r0000gn/T/npm-70789-4082873a/git-cache-3944b498841d/674ebfd3439ba4b7ce616709821d27630f7cdc61
+487 info git [ 'clone',
+487 info git   '/Users/Evan/.npm/_git-remotes/git-github-com-discordapp-erlpack-git-917e4b33',
+487 info git   '/var/folders/ns/kc3snx1s6_s4002y241_w94r0000gn/T/npm-70789-4082873a/git-cache-3944b498841d/674ebfd3439ba4b7ce616709821d27630f7cdc61' ]
+488 verbose cloneResolved discordapp/erlpack clone Cloning into '/var/folders/ns/kc3snx1s6_s4002y241_w94r0000gn/T/npm-70789-4082873a/git-cache-3944b498841d/674ebfd3439ba4b7ce616709821d27630f7cdc61'...
+488 verbose cloneResolved done.
+489 info git [ 'checkout', '674ebfd3439ba4b7ce616709821d27630f7cdc61' ]
+490 verbose checkoutTreeish discordapp/erlpack checkout Note: checking out '674ebfd3439ba4b7ce616709821d27630f7cdc61'.
+490 verbose checkoutTreeish
+490 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+490 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+490 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+490 verbose checkoutTreeish
+490 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+490 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+490 verbose checkoutTreeish
+490 verbose checkoutTreeish   git checkout -b <new-branch-name>
+490 verbose checkoutTreeish
+490 verbose checkoutTreeish HEAD is now at 674ebfd after reset we need to append the version
+491 verbose addLocalDirectory /Users/Evan/.npm/erlpack/0.1.0/package.tgz not in flight; packing
+492 verbose correctMkdir /Users/Evan/.npm correctMkdir not in flight; initializing
+493 verbose tar pack [ '/Users/Evan/.npm/erlpack/0.1.0/package.tgz',
+493 verbose tar pack   '/var/folders/ns/kc3snx1s6_s4002y241_w94r0000gn/T/npm-70789-4082873a/git-cache-3944b498841d/674ebfd3439ba4b7ce616709821d27630f7cdc61' ]
+494 verbose tarball /Users/Evan/.npm/erlpack/0.1.0/package.tgz
+495 verbose folder /var/folders/ns/kc3snx1s6_s4002y241_w94r0000gn/T/npm-70789-4082873a/git-cache-3944b498841d/674ebfd3439ba4b7ce616709821d27630f7cdc61
+496 verbose addLocalTarball adding from inside cache /Users/Evan/.npm/erlpack/0.1.0/package.tgz
+497 verbose correctMkdir /Users/Evan/.npm correctMkdir not in flight; initializing
+498 verbose addRemoteGit data._from: discordapp/erlpack
+499 verbose addRemoteGit data._resolved: git://github.com/discordapp/erlpack.git#674ebfd3439ba4b7ce616709821d27630f7cdc61
+500 silly cache afterAdd erlpack@0.1.0
+501 verbose afterAdd /Users/Evan/.npm/erlpack/0.1.0/package/package.json not in flight; writing
+502 verbose correctMkdir /Users/Evan/.npm correctMkdir not in flight; initializing
+503 verbose afterAdd /Users/Evan/.npm/erlpack/0.1.0/package/package.json written
+504 silly install resolved [ { name: 'sodium',
+504 silly install resolved     version: '2.0.3',
+504 silly install resolved     libsodium_version: '1.0.11',
+504 silly install resolved     author: { name: 'Pedro Paixao', email: 'paixaop@gmail.com' },
+504 silly install resolved     license: 'MIT',
+504 silly install resolved     main: 'index.js',
+504 silly install resolved     description: 'Lib Sodium port for node.js',
+504 silly install resolved     dependencies: { nan: '^2.8.0' },
+504 silly install resolved     devDependencies:
+504 silly install resolved      { mdextract: '^1.0.0',
+504 silly install resolved        istanbul: '>=0.4.3',
+504 silly install resolved        mocha: '>=2.4.5',
+504 silly install resolved        'mocha-istanbul': '>=0.2.0',
+504 silly install resolved        'node-gyp': '>=3.3.1' },
+504 silly install resolved     scripts:
+504 silly install resolved      { test: 'make test',
+504 silly install resolved        preinstall: 'node install.js --preinstall',
+504 silly install resolved        install: 'node install.js --install' },
+504 silly install resolved     repository:
+504 silly install resolved      { type: 'git',
+504 silly install resolved        url: 'git+https://github.com/paixaop/node-sodium.git' },
+504 silly install resolved     keywords:
+504 silly install resolved      [ 'encryption',
+504 silly install resolved        'ed25519',
+504 silly install resolved        'curve25519',
+504 silly install resolved        'NaCl',
+504 silly install resolved        'libsodium',
+504 silly install resolved        'crypto',
+504 silly install resolved        'unique',
+504 silly install resolved        'stamp' ],
+504 silly install resolved     gitHead: '4e0ae7a95f6fdb8ebb9c261baedce1f835e90c8e',
+504 silly install resolved     bugs: { url: 'https://github.com/paixaop/node-sodium/issues' },
+504 silly install resolved     homepage: 'https://github.com/paixaop/node-sodium#readme',
+504 silly install resolved     _id: 'sodium@2.0.3',
+504 silly install resolved     _npmVersion: '5.5.1',
+504 silly install resolved     _nodeVersion: '9.2.0',
+504 silly install resolved     _npmUser: { name: 'ppaixao', email: 'paixaop@gmail.com' },
+504 silly install resolved     dist:
+504 silly install resolved      { integrity: 'sha512-/z1tdOf+tn+MZr6uiKno709w2V5LwqukNWxOWi6NiSBia5E7Fp33f3CUHtCIR2184DEylytXdTZNryQUQwNKkQ==',
+504 silly install resolved        shasum: '4f489e9a3be75395d168a0341dde8b401432ddf6',
+504 silly install resolved        tarball: 'https://registry.npmjs.org/sodium/-/sodium-2.0.3.tgz' },
+504 silly install resolved     maintainers: [ [Object] ],
+504 silly install resolved     _npmOperationalInternal:
+504 silly install resolved      { host: 's3://npm-registry-packages',
+504 silly install resolved        tmp: 'tmp/sodium-2.0.3.tgz_1511328611127_0.6762051593977958' },
+504 silly install resolved     directories: {},
+504 silly install resolved     _shasum: '4f489e9a3be75395d168a0341dde8b401432ddf6',
+504 silly install resolved     _resolved: 'https://registry.npmjs.org/sodium/-/sodium-2.0.3.tgz',
+504 silly install resolved     _from: 'sodium@>=2.0.3 <3.0.0',
+504 silly install resolved     readme: 'ERROR: No README data found!' },
+504 silly install resolved   { main: './js/index.js',
+504 silly install resolved     name: 'erlpack',
+504 silly install resolved     version: '0.1.0',
+504 silly install resolved     description: 'Erlpack is a fast encoder and decoder for the Erlang Term Format (version 131) for Javascript',
+504 silly install resolved     scripts: { test: 'jest', install: 'node-gyp rebuild' },
+504 silly install resolved     author: { name: 'Jason Citron' },
+504 silly install resolved     license: 'Apache-2.0',
+504 silly install resolved     dependencies: { bindings: '^1.2.1', nan: '^2.1.0' },
+504 silly install resolved     gypfile: true,
+504 silly install resolved     devDependencies: { 'babel-jest': '^6.0.1', 'jest-cli': '^0.8.2' },
+504 silly install resolved     jest:
+504 silly install resolved      { scriptPreprocessor: '<rootDir>/node_modules/babel-jest',
+504 silly install resolved        unmockedModulePathPatterns: [Object] },
+504 silly install resolved     repository:
+504 silly install resolved      { type: 'git',
+504 silly install resolved        url: 'git+https://github.com/discordapp/erlpack.git' },
+504 silly install resolved     gitHead: '674ebfd3439ba4b7ce616709821d27630f7cdc61',
+504 silly install resolved     readme: '# Erlpack\n\nErlpack is a fast encoder and decoder for the Erlang Term Format (version 131) for Python and Javascript.\n\n# Javascript\n\n## Things that can be packed:\n\n- [X] Null\n- [X] Booleans\n- [X] Strings\n- [ ] Atoms\n- [X] Unicode Strings\n- [X] Floats\n- [X] Integers\n- [ ] Longs\n- [ ] Longs over 64 bits\n- [X] Objects\n- [X] Arrays\n- [ ] Tuples\n- [ ] PIDs\n- [ ] Ports\n- [ ] Exports\n- [ ] References\n\n## How to pack:\n```js\nlet erlpack = require("erlpack");\n\npacked = erlpack.pack({\'a\': true, \'list\': [\'of\', 3, \'things\', \'to\', \'pack\']});\n```\n\n## How to unpack:\nNote: Unpacking requires the binary data be a Uint8Array or Buffer. For those using electron/libchromium see the gotcha below. \n```js\nlet erlpack = require("erlpack");\n\nlet unpacked = null;\nlet packed = new Buffer(\'\', \'binary\');\ntry  {\n    unpacked = erlpack.unpack(packed);\n}\ncatch (e) {\n    // got an exception parsing\n}\n```\n\n## Libchromium / Electron Gotcha\nSome versions of libchromium replace the native data type backing TypedArrays with a custom data type called \nblink::WebArrayBuffer. To keep erlpack\' dependencies simple this data type is not supported directly. If you\'re using\nElectron / Libchromium you need to convert the blink::WebArrayBuffer into a node::Buffer before passing to erlpack. You will\nneed to add this code into your native package somewhere:\n```cpp\nv8::Local<v8::Value> ConvertToNodeBuffer(const v8::Local<v8::Object>& blinkArray)\n{\n    if (node::Buffer::HasInstance(blinkArray)) {\n        return blinkArray;\n    }\n    else if (blinkArray->IsArrayBufferView()) {\n        auto byteArray = v8::ArrayBufferView::Cast(*blinkArray);\n        return node::Buffer::Copy(v8::Isolate::GetCurrent(), (const char*)byteArray->Buffer()->GetContents().Data(), byteArray->ByteLength()).ToLocalChecked();\n    }\n    \n    return v8::Local<v8::Primitive>(v8::Null(v8::Isolate::GetCurrent()));\n}\n```\n\nThen in Javascript something like:\n\n```js\nlet packed = NativeUtils.convertToNodeBuffer(new Uint8Array(binaryPayload));\n// unpack now using erlpack.unpack(packed)\n```\n\n# Python\n\n## Things that can be packed:\n\n- [X] None\n- [X] Booleans\n- [X] Strings\n- [X] Atoms\n- [X] Unicode Strings\n- [X] Floats\n- [X] Integers\n- [X] Longs\n- [ ] Longs over 64 bits\n- [X] Dictionaries\n- [X] Lists\n- [X] Tuples\n- [X] User Types (via an encode hook)\n- [ ] PIDs\n- [ ] Ports\n- [ ] Exports\n- [ ] References\n\n## How to pack:\n```py\nfrom erlpack import pack\n\npacked = pack(["thing", "to", "pack"])\n```\n\n## How to unpack:\n```py\nfrom erlpack import unpack\n\nunpacked = unpack(packed)\n```\n\n## How to pack an atom:\n\n```py\nfrom erlpack import Atom, pack\n\npacked = pack(Atom(\'hello\'))\n```\n\n## How to use an encode hook.\n\n```py\nfrom erlpack import ErlangTermEncoder\n\ndef encode_hook(obj):\n    if isinstance(obj, datetime.datetime):\n        return obj.isoformat()\n\nencoder = ErlangTermEncoder(encode_hook=encode_hook)\npacked = encoder.pack(datetime.datetime(2015, 12, 25, 12, 23, 55))\n\n```\n\n## How to make custom types packable.\n\n```py\nfrom erlpack import pack, Atom\n\nclass User(object):\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n\n    def __erlpack__(self):\n        return {\n            Atom(\'name\'): self.name,\n            Atom(\'age\'): self.age\n        }\n\nu = User(name=\'Jake\', age=23)\npacked = pack(u)\n```',
+504 silly install resolved     readmeFilename: 'README.md',
+504 silly install resolved     bugs: { url: 'https://github.com/discordapp/erlpack/issues' },
+504 silly install resolved     homepage: 'https://github.com/discordapp/erlpack#readme',
+504 silly install resolved     _id: 'erlpack@0.1.0',
+504 silly install resolved     _shasum: '349e75b31ae64166b21eeda10a109bdfc7d6dbee',
+504 silly install resolved     _from: 'discordapp/erlpack',
+504 silly install resolved     _resolved: 'git://github.com/discordapp/erlpack.git#674ebfd3439ba4b7ce616709821d27630f7cdc61' } ]
+505 info install sodium@2.0.3 into /Users/Evan/discord-bot
+506 info install erlpack@0.1.0 into /Users/Evan/discord-bot
+507 info installOne sodium@2.0.3
+508 verbose installOne of sodium to /Users/Evan/discord-bot not in flight; installing
+509 verbose correctMkdir /Users/Evan/.npm/_locks correctMkdir not in flight; initializing
+510 info installOne erlpack@0.1.0
+511 verbose installOne of erlpack to /Users/Evan/discord-bot not in flight; installing
+512 verbose correctMkdir /Users/Evan/.npm/_locks correctMkdir not in flight; initializing
+513 verbose lock using /Users/Evan/.npm/_locks/sodium-7eb96b4e26a4ed07.lock for /Users/Evan/discord-bot/node_modules/sodium
+514 verbose lock using /Users/Evan/.npm/_locks/erlpack-d57a07b04d9b4d82.lock for /Users/Evan/discord-bot/node_modules/erlpack
+515 silly install write writing sodium 2.0.3 to /Users/Evan/discord-bot/node_modules/sodium
+516 silly install write writing erlpack 0.1.0 to /Users/Evan/discord-bot/node_modules/erlpack
+517 verbose unbuild node_modules/sodium
+518 verbose unbuild node_modules/erlpack
+519 silly gentlyRm /Users/Evan/discord-bot/node_modules/sodium is being purged from base /Users/Evan/discord-bot
+520 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/sodium
+521 verbose tar unpack /Users/Evan/.npm/sodium/2.0.3/package.tgz
+522 verbose tar unpacking to /Users/Evan/discord-bot/node_modules/sodium
+523 silly gentlyRm /Users/Evan/discord-bot/node_modules/sodium is being purged
+524 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/sodium
+525 silly gentlyRm /Users/Evan/discord-bot/node_modules/erlpack is being purged from base /Users/Evan/discord-bot
+526 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/erlpack
+527 silly gunzTarPerm modes [ '755', '644' ]
+528 verbose tar unpack /Users/Evan/.npm/erlpack/0.1.0/package.tgz
+529 verbose tar unpacking to /Users/Evan/discord-bot/node_modules/erlpack
+530 silly gentlyRm /Users/Evan/discord-bot/node_modules/erlpack is being purged
+531 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/erlpack
+532 silly gunzTarPerm modes [ '755', '644' ]
+533 silly gunzTarPerm extractEntry package.json
+534 silly gunzTarPerm extractEntry package.json
+535 silly gunzTarPerm extractEntry .dntrc
+536 silly gunzTarPerm extractEntry .gitmodules
+537 silly gunzTarPerm extractEntry .npmignore
+538 silly gunzTarPerm extractEntry README.md
+539 silly gunzTarPerm extractEntry .jsbeautifyrc
+540 silly gunzTarPerm extractEntry .jshintrc
+541 silly gunzTarPerm extractEntry LICENSE
+542 silly gunzTarPerm extractEntry vendor/zlib/README
+543 silly gunzTarPerm extractEntry .travis.yml
+544 silly gunzTarPerm extractEntry binding.gyp
+545 silly gunzTarPerm extractEntry vendor/zlib/inflate.c
+546 silly gunzTarPerm extractEntry CONTRIBUTING.md
+547 silly gunzTarPerm extractEntry defines.js
+548 silly gunzTarPerm extractEntry vendor/zlib/FAQ
+549 silly gunzTarPerm extractEntry vendor/zlib/INDEX
+550 silly gunzTarPerm extractEntry index.js
+551 silly gunzTarPerm extractEntry install.js
+552 silly gunzTarPerm extractEntry vendor/zlib/Makefile
+553 silly gunzTarPerm extractEntry vendor/zlib/Makefile.in
+554 silly gunzTarPerm extractEntry LICENSE
+555 silly gunzTarPerm extractEntry Makefile
+556 silly gunzTarPerm extractEntry vendor/zlib/CMakeLists.txt
+557 silly gunzTarPerm extractEntry vendor/zlib/adler32.c
+558 silly gunzTarPerm extractEntry vendor/zlib/amiga/Makefile.pup
+559 silly gunzTarPerm extractEntry README.md
+560 silly gunzTarPerm extractEntry .idea/.name
+561 silly gunzTarPerm extractEntry vendor/zlib/amiga/Makefile.sas
+562 silly gunzTarPerm extractEntry vendor/zlib/as400/bndsrc
+563 silly gunzTarPerm extractEntry vendor/zlib/as400/compile.clp
+564 silly gunzTarPerm extractEntry .idea/encodings.xml
+565 silly gunzTarPerm extractEntry .idea/jsLibraryMappings.xml
+566 silly gunzTarPerm extractEntry vendor/zlib/as400/readme.txt
+567 silly gunzTarPerm extractEntry vendor/zlib/as400/zlib.inc
+568 silly gunzTarPerm extractEntry .idea/libraries/node_sodium_node_modules.xml
+569 silly gunzTarPerm extractEntry .idea/misc.xml
+570 silly gunzTarPerm extractEntry vendor/zlib/compress.c
+571 silly gunzTarPerm extractEntry vendor/zlib/configure
+572 silly gunzTarPerm extractEntry .idea/modules.xml
+573 silly gunzTarPerm extractEntry .idea/node-sodium.iml
+574 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+575 silly gunzTarPerm extractEntry .idea/vcs.xml
+576 silly gunzTarPerm extractEntry vendor/zlib/contrib/iostream/test.cpp
+577 silly gunzTarPerm extractEntry vendor/zlib/contrib/iostream/zfstream.cpp
+578 silly gunzTarPerm extractEntry vendor/zlib/contrib/iostream/zfstream.h
+579 silly gunzTarPerm extractEntry vendor/zlib/contrib/README.contrib
+580 silly gunzTarPerm extractEntry .idea/workspace.xml
+581 silly gunzTarPerm extractEntry deps/libsodium.gyp
+582 silly gunzTarPerm extractEntry deps/libsodium.gyp.in
+583 silly gunzTarPerm extractEntry deps/libsodium/AUTHORS
+584 silly gunzTarPerm extractEntry vendor/zlib/contrib/amd64/amd64-match.S
+585 silly gunzTarPerm extractEntry vendor/zlib/contrib/asm686/README.686
+586 silly gunzTarPerm extractEntry deps/libsodium/autogen.sh
+587 silly gunzTarPerm extractEntry deps/libsodium/builds/Makefile.am
+588 silly gunzTarPerm extractEntry vendor/zlib/contrib/asm686/match.S
+589 silly gunzTarPerm extractEntry vendor/zlib/contrib/blast/README
+590 silly gunzTarPerm extractEntry vendor/zlib/contrib/blast/Makefile
+591 silly gunzTarPerm extractEntry vendor/zlib/contrib/blast/blast.c
+592 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Common.props
+593 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Debug.props
+594 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugDEXE.props
+595 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugDLL.props
+596 silly gunzTarPerm extractEntry vendor/zlib/contrib/blast/blast.h
+597 silly gunzTarPerm extractEntry vendor/zlib/contrib/blast/test.pk
+598 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugLEXE.props
+599 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugLIB.props
+600 silly gunzTarPerm extractEntry vendor/zlib/contrib/blast/test.txt
+601 silly gunzTarPerm extractEntry vendor/zlib/contrib/delphi/ZLib.pas
+602 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugLTCG.props
+603 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DebugSEXE.props
+604 silly gunzTarPerm extractEntry vendor/zlib/contrib/delphi/ZLibConst.pas
+605 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/DLL.props
+606 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/EXE.props
+607 silly gunzTarPerm extractEntry vendor/zlib/contrib/delphi/readme.txt
+608 silly gunzTarPerm extractEntry vendor/zlib/contrib/delphi/zlibd32.mak
+609 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/LIB.props
+610 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Link.props
+611 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib/AssemblyInfo.cs
+612 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib/ChecksumImpl.cs
+613 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib/CircularBuffer.cs
+614 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib/CodecBase.cs
+615 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/LTCG.props
+616 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Messages.props
+617 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib/Deflater.cs
+618 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib/DotZLib.cs
+619 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Output.props
+620 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Release.props
+621 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib/DotZLib.csproj
+622 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib/GZipStream.cs
+623 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib/Inflater.cs
+624 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib/UnitTests.cs
+625 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseDEXE.props
+626 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseDLL.props
+627 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseLEXE.props
+628 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseLIB.props
+629 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseLTCG.props
+630 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/ReleaseSEXE.props
+631 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib.build
+632 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib.chm
+633 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/Win32.props
+634 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/properties/x64.props
+635 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/resource.h
+636 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/resource.rc
+637 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/version.h
+638 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium.import.props
+639 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/DotZLib.sln
+640 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/LICENSE_1_0.txt
+641 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium.import.xml
+642 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium.sln
+643 silly gunzTarPerm extractEntry vendor/zlib/contrib/dotzlib/readme.txt
+644 silly gunzTarPerm extractEntry vendor/zlib/contrib/gcc_gvmat64/gvmat64.S
+645 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium/libsodium.props
+646 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium/libsodium.vcxproj
+647 silly gunzTarPerm extractEntry vendor/zlib/contrib/infback9/README
+648 silly gunzTarPerm extractEntry vendor/zlib/contrib/infback9/infback9.c
+649 silly gunzTarPerm extractEntry vendor/zlib/contrib/infback9/infback9.h
+650 silly gunzTarPerm extractEntry vendor/zlib/contrib/infback9/inffix9.h
+651 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium/libsodium.vcxproj.filters
+652 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2010/libsodium/libsodium.xml
+653 silly gunzTarPerm extractEntry vendor/zlib/contrib/infback9/inflate9.h
+654 silly gunzTarPerm extractEntry vendor/zlib/contrib/infback9/inftree9.c
+655 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium.import.props
+656 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium.import.xml
+657 silly gunzTarPerm extractEntry vendor/zlib/contrib/infback9/inftree9.h
+658 silly gunzTarPerm extractEntry vendor/zlib/contrib/inflate86/inffas86.c
+659 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium.sln
+660 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium/libsodium.props
+661 silly gunzTarPerm extractEntry vendor/zlib/contrib/inflate86/inffast.S
+662 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/zlib-streams.ads
+663 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium/libsodium.vcxproj
+664 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium/libsodium.vcxproj.filters
+665 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/buffer_demo.adb
+666 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/read.adb
+667 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2012/libsodium/libsodium.xml
+668 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium.import.props
+669 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/readme.txt
+670 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/test.adb
+671 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/zlib-streams.adb
+672 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/mtest.adb
+673 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium.import.xml
+674 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium.sln
+675 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/zlib-thin.adb
+676 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/zlib-thin.ads
+677 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium/libsodium.props
+678 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium/libsodium.vcxproj
+679 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/zlib.adb
+680 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/zlib.ads
+681 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium/libsodium.vcxproj.filters
+682 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2013/libsodium/libsodium.xml
+683 silly gunzTarPerm extractEntry vendor/zlib/contrib/ada/zlib.gpr
+684 silly gunzTarPerm extractEntry vendor/zlib/contrib/iostream2/zstream.h
+685 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium.import.props
+686 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium.import.xml
+687 silly gunzTarPerm extractEntry vendor/zlib/contrib/iostream2/zstream_test.cpp
+688 silly gunzTarPerm extractEntry vendor/zlib/contrib/iostream3/README
+689 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium.sln
+690 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium/libsodium.props
+691 silly gunzTarPerm extractEntry vendor/zlib/contrib/iostream3/TODO
+692 silly gunzTarPerm extractEntry vendor/zlib/contrib/iostream3/test.cc
+693 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium/libsodium.vcxproj
+694 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium/libsodium.vcxproj.filters
+695 silly gunzTarPerm extractEntry vendor/zlib/contrib/iostream3/zfstream.cc
+696 silly gunzTarPerm extractEntry vendor/zlib/contrib/iostream3/zfstream.h
+697 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2015/libsodium/libsodium.xml
+698 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium.import.props
+699 silly gunzTarPerm extractEntry vendor/zlib/contrib/masmx64/bld_ml64.bat
+700 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium.import.xml
+701 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium.sln
+702 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium/libsodium.props
+703 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium/libsodium.vcxproj
+704 silly gunzTarPerm extractEntry vendor/zlib/contrib/masmx64/gvmat64.asm
+705 silly gunzTarPerm extractEntry vendor/zlib/contrib/masmx64/inffas8664.c
+706 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium/libsodium.vcxproj.filters
+707 silly gunzTarPerm extractEntry vendor/zlib/contrib/masmx64/inffasx64.asm
+708 silly gunzTarPerm extractEntry vendor/zlib/contrib/masmx64/readme.txt
+709 silly gunzTarPerm extractEntry deps/libsodium/builds/msvc/vs2017/libsodium/libsodium.xml
+710 silly gunzTarPerm extractEntry deps/libsodium/ChangeLog
+711 silly gunzTarPerm extractEntry vendor/zlib/contrib/masmx86/bld_ml32.bat
+712 silly gunzTarPerm extractEntry vendor/zlib/contrib/masmx86/inffas32.asm
+713 silly gunzTarPerm extractEntry deps/libsodium/compile
+714 silly gunzTarPerm extractEntry deps/libsodium/confdefs.h
+715 silly gunzTarPerm modified mode [ 'deps/libsodium/confdefs.h', 511, 493 ]
+716 silly gunzTarPerm extractEntry vendor/zlib/contrib/masmx86/match686.asm
+717 silly gunzTarPerm extractEntry vendor/zlib/contrib/masmx86/readme.txt
+718 silly gunzTarPerm extractEntry deps/libsodium/config.guess
+719 silly gunzTarPerm extractEntry deps/libsodium/config.sub
+720 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/miniunz.c
+721 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/Makefile
+722 silly gunzTarPerm extractEntry deps/libsodium/configure.ac
+723 silly gunzTarPerm extractEntry deps/libsodium/contrib/Findsodium.cmake
+724 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/MiniZip64_Changes.txt
+725 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/MiniZip64_info.txt
+726 silly gunzTarPerm extractEntry deps/libsodium/contrib/Makefile.am
+727 silly gunzTarPerm extractEntry deps/libsodium/depcomp
+728 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/configure.ac
+729 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/crypt.h
+730 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-arm.sh
+731 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-armv7-a.sh
+732 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/ioapi.c
+733 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/ioapi.h
+734 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-armv8-a.sh
+735 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-build.sh
+736 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/iowin32.c
+737 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/iowin32.h
+738 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-mips32.sh
+739 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-mips64.sh
+740 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/make_vms.com
+741 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/Makefile.am
+742 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-x86_64.sh
+743 silly gunzTarPerm extractEntry deps/libsodium/dist-build/android-x86.sh
+744 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/miniunzip.1
+745 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/minizip.1
+746 silly gunzTarPerm extractEntry deps/libsodium/dist-build/emscripten.sh
+747 silly gunzTarPerm extractEntry deps/libsodium/dist-build/ios.sh
+748 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/minizip.c
+749 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/minizip.pc.in
+750 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/mztools.c
+751 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/mztools.h
+752 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/unzip.c
+753 silly gunzTarPerm extractEntry deps/libsodium/dist-build/Makefile.am
+754 silly gunzTarPerm extractEntry deps/libsodium/dist-build/msys2-win32.sh
+755 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/unzip.h
+756 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/zip.c
+757 silly gunzTarPerm extractEntry deps/libsodium/dist-build/msys2-win64.sh
+758 silly gunzTarPerm extractEntry deps/libsodium/dist-build/nativeclient-pnacl.sh
+759 silly gunzTarPerm extractEntry vendor/zlib/contrib/minizip/zip.h
+760 silly gunzTarPerm extractEntry deps/libsodium/dist-build/nativeclient-x86_64.sh
+761 silly gunzTarPerm extractEntry deps/libsodium/dist-build/nativeclient-x86.sh
+762 silly gunzTarPerm extractEntry vendor/zlib/contrib/pascal/example.pas
+763 silly gunzTarPerm extractEntry vendor/zlib/contrib/pascal/readme.txt
+764 silly gunzTarPerm extractEntry deps/libsodium/install-sh
+765 silly gunzTarPerm extractEntry deps/libsodium/libsodium-uninstalled.pc.in
+766 silly gunzTarPerm extractEntry vendor/zlib/contrib/pascal/zlibd32.mak
+767 silly gunzTarPerm extractEntry vendor/zlib/contrib/pascal/zlibpas.pas
+768 silly gunzTarPerm extractEntry deps/libsodium/libsodium.pc.in
+769 silly gunzTarPerm extractEntry deps/libsodium/libsodium.sln
+770 silly gunzTarPerm extractEntry vendor/zlib/contrib/puff/README
+771 silly gunzTarPerm extractEntry vendor/zlib/contrib/puff/Makefile
+772 silly gunzTarPerm extractEntry deps/libsodium/libsodium.vcxproj
+773 silly gunzTarPerm extractEntry deps/libsodium/libsodium.vcxproj.filters
+774 silly gunzTarPerm extractEntry vendor/zlib/contrib/puff/puff.c
+775 silly gunzTarPerm extractEntry vendor/zlib/contrib/puff/puff.h
+776 silly gunzTarPerm extractEntry deps/libsodium/LICENSE
+777 silly gunzTarPerm extractEntry deps/libsodium/ltmain.sh
+778 silly gunzTarPerm extractEntry vendor/zlib/contrib/puff/pufftest.c
+779 silly gunzTarPerm extractEntry vendor/zlib/contrib/puff/zeros.raw
+780 silly gunzTarPerm extractEntry vendor/zlib/contrib/testzlib/testzlib.c
+781 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_check_catchable_abrt.m4
+782 silly gunzTarPerm extractEntry vendor/zlib/contrib/testzlib/testzlib.txt
+783 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_check_catchable_segv.m4
+784 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_check_compile_flag.m4
+785 silly gunzTarPerm extractEntry vendor/zlib/contrib/untgz/Makefile
+786 silly gunzTarPerm extractEntry vendor/zlib/contrib/untgz/Makefile.msc
+787 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_check_define.m4
+788 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_check_link_flag.m4
+789 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_pthread.m4
+790 silly gunzTarPerm extractEntry vendor/zlib/contrib/untgz/untgz.c
+791 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/readme.txt
+792 silly gunzTarPerm extractEntry deps/libsodium/m4/ax_valgrind_check.m4
+793 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/testzlibdll.vcxproj.filters
+794 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/miniunz.vcxproj
+795 silly gunzTarPerm extractEntry deps/libsodium/m4/ld-output-def.m4
+796 silly gunzTarPerm extractEntry deps/libsodium/Makefile.am
+797 silly gunzTarPerm extractEntry deps/libsodium/missing
+798 silly gunzTarPerm extractEntry deps/libsodium/msvc-scripts/Makefile.am
+799 silly gunzTarPerm extractEntry deps/libsodium/msvc-scripts/process.bat
+800 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/minizip.vcxproj
+801 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/minizip.vcxproj.filters
+802 silly gunzTarPerm extractEntry deps/libsodium/msvc-scripts/rep.vbs
+803 silly gunzTarPerm extractEntry deps/libsodium/msvc-scripts/sodium.props
+804 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/testzlib.vcxproj
+805 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/testzlib.vcxproj.filters
+806 silly gunzTarPerm extractEntry deps/libsodium/README.markdown
+807 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_aead/aes256gcm/aesni/aead_aes256gcm_aesni.c
+808 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/testzlibdll.vcxproj
+809 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/miniunz.vcxproj.filters
+810 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/zlib.rc
+811 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/zlibstat.vcxproj
+812 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/zlibstat.vcxproj.filters
+813 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c
+814 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c
+815 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/zlibvc.def
+816 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/zlibvc.sln
+817 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/zlibvc.vcxproj
+818 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_auth/crypto_auth.c
+819 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c
+820 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc10/zlibvc.vcxproj.filters
+821 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc11/miniunz.vcxproj
+822 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c
+823 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c
+824 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc11/minizip.vcxproj
+825 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc11/testzlib.vcxproj
+826 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/crypto_box_easy.c
+827 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/crypto_box_seal.c
+828 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/crypto_box.c
+829 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c
+830 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc11/testzlibdll.vcxproj
+831 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc11/zlib.rc
+832 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c
+833 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c
+834 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/curve25519/ref10/base.h
+835 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc11/zlibstat.vcxproj
+836 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc11/zlibvc.def
+837 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/curve25519/ref10/base2.h
+838 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc11/zlibvc.sln
+839 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc11/zlibvc.vcxproj
+840 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/curve25519/ref10/curve25519_ref10.c
+841 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c
+842 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c
+843 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c
+844 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc9/miniunz.vcproj
+845 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc9/minizip.vcproj
+846 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc9/testzlib.vcproj
+847 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc9/testzlibdll.vcproj
+848 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c
+849 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c
+850 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2.h
+851 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c
+852 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc9/zlib.rc
+853 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc9/zlibstat.vcproj
+854 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.h
+855 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c
+856 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc9/zlibvc.def
+857 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc9/zlibvc.sln
+858 silly gunzTarPerm extractEntry vendor/zlib/contrib/vstudio/vc9/zlibvc.vcproj
+859 silly gunzTarPerm extractEntry vendor/zlib/crc32.c
+860 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-sse41.c
+861 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-sse41.h
+862 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c
+863 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.h
+864 silly gunzTarPerm extractEntry vendor/zlib/crc32.h
+865 silly gunzTarPerm extractEntry vendor/zlib/deflate.c
+866 silly gunzTarPerm extractEntry vendor/zlib/deflate.h
+867 silly gunzTarPerm extractEntry vendor/zlib/doc/algorithm.txt
+868 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-load-avx2.h
+869 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-load-sse2.h
+870 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-load-sse41.h
+871 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c
+872 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c
+873 silly gunzTarPerm extractEntry vendor/zlib/doc/rfc1950.txt
+874 silly gunzTarPerm extractEntry vendor/zlib/doc/rfc1951.txt
+875 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_generichash/crypto_generichash.c
+876 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_hash/crypto_hash.c
+877 silly gunzTarPerm extractEntry vendor/zlib/doc/rfc1952.txt
+878 silly gunzTarPerm extractEntry vendor/zlib/doc/txtvsbin.txt
+879 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c
+880 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c
+881 silly gunzTarPerm extractEntry vendor/zlib/examples/gzjoin.c
+882 silly gunzTarPerm extractEntry vendor/zlib/examples/README.examples
+883 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c
+884 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c
+885 silly gunzTarPerm extractEntry vendor/zlib/examples/fitblk.c
+886 silly gunzTarPerm extractEntry vendor/zlib/examples/gun.c
+887 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c
+888 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_kdf/crypto_kdf.c
+889 silly gunzTarPerm extractEntry vendor/zlib/examples/gzappend.c
+890 silly gunzTarPerm extractEntry vendor/zlib/examples/enough.c
+891 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_kx/crypto_kx.c
+892 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c
+893 silly gunzTarPerm extractEntry vendor/zlib/examples/gzlog.c
+894 silly gunzTarPerm extractEntry vendor/zlib/examples/gzlog.h
+895 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c
+896 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.h
+897 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna32.h
+898 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna64.h
+899 silly gunzTarPerm extractEntry vendor/zlib/examples/zlib_how.html
+900 silly gunzTarPerm extractEntry vendor/zlib/examples/zpipe.c
+901 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c
+902 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.h
+903 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/sse2/poly1305_sse2.c
+904 silly gunzTarPerm extractEntry vendor/zlib/examples/zran.c
+905 silly gunzTarPerm extractEntry vendor/zlib/gzclose.c
+906 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_onetimeauth/poly1305/sse2/poly1305_sse2.h
+907 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c
+908 silly gunzTarPerm extractEntry vendor/zlib/gzguts.h
+909 silly gunzTarPerm extractEntry vendor/zlib/gzlib.c
+910 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.h
+911 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c
+912 silly gunzTarPerm extractEntry vendor/zlib/gzread.c
+913 silly gunzTarPerm extractEntry vendor/zlib/gzwrite.c
+914 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.h
+915 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c
+916 silly gunzTarPerm extractEntry vendor/zlib/infback.c
+917 silly gunzTarPerm extractEntry vendor/zlib/inffast.c
+918 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c
+919 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c
+920 silly gunzTarPerm extractEntry vendor/zlib/inffast.h
+921 silly gunzTarPerm extractEntry vendor/zlib/inffixed.h
+922 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c
+923 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c
+924 silly gunzTarPerm extractEntry vendor/zlib/ChangeLog
+925 silly gunzTarPerm extractEntry vendor/zlib/inflate.h
+926 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.h
+927 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c
+928 silly gunzTarPerm extractEntry vendor/zlib/inftrees.c
+929 silly gunzTarPerm extractEntry vendor/zlib/inftrees.h
+930 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.h
+931 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blamka-round-avx2.h
+932 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blamka-round-avx512f.h
+933 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blamka-round-ref.h
+934 silly gunzTarPerm extractEntry vendor/zlib/make_vms.com
+935 silly gunzTarPerm extractEntry vendor/zlib/msdos/Makefile.bor
+936 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/blamka-round-ssse3.h
+937 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c
+938 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c
+939 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c
+940 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c
+941 silly gunzTarPerm extractEntry vendor/zlib/msdos/Makefile.dj2
+942 silly gunzTarPerm extractEntry vendor/zlib/msdos/Makefile.emx
+943 silly gunzTarPerm extractEntry vendor/zlib/msdos/Makefile.msc
+944 silly gunzTarPerm extractEntry vendor/zlib/msdos/Makefile.tc
+945 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt.h
+946 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c
+947 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c
+948 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.h
+949 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c
+950 silly gunzTarPerm extractEntry vendor/zlib/nintendods/README
+951 silly gunzTarPerm extractEntry vendor/zlib/nintendods/Makefile
+952 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c
+953 silly gunzTarPerm extractEntry vendor/zlib/old/README
+954 silly gunzTarPerm extractEntry vendor/zlib/old/Makefile.emx
+955 silly gunzTarPerm extractEntry vendor/zlib/old/Makefile.riscos
+956 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/sse/pwhash_scryptsalsa208sha256_sse.c
+957 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c
+958 silly gunzTarPerm extractEntry vendor/zlib/old/descrip.mms
+959 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/donna_c64/curve25519_donna_c64.c
+960 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/donna_c64/curve25519_donna_c64.h
+961 silly gunzTarPerm extractEntry vendor/zlib/old/os2/Makefile.os2
+962 silly gunzTarPerm extractEntry vendor/zlib/old/os2/zlib.def
+963 silly gunzTarPerm extractEntry vendor/zlib/old/visual-basic.txt
+964 silly gunzTarPerm extractEntry vendor/zlib/qnx/package.qpg
+965 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c
+966 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.h
+967 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts_namespace.h
+968 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts.S
+969 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c
+970 silly gunzTarPerm extractEntry vendor/zlib/test/example.c
+971 silly gunzTarPerm extractEntry vendor/zlib/test/infcover.c
+972 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.h
+973 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c
+974 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe.h
+975 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c
+976 silly gunzTarPerm extractEntry vendor/zlib/test/minigzip.c
+977 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_mul.S
+978 silly gunzTarPerm extractEntry vendor/zlib/treebuild.xml
+979 silly gunzTarPerm extractEntry vendor/zlib/trees.c
+980 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_namespace.h
+981 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_nsquare.S
+982 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_pack.S
+983 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51.h
+984 silly gunzTarPerm extractEntry vendor/zlib/trees.h
+985 silly gunzTarPerm extractEntry vendor/zlib/uncompr.c
+986 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder_base_namespace.h
+987 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder_base.h
+988 silly gunzTarPerm extractEntry vendor/zlib/watcom/watcom_f.mak
+989 silly gunzTarPerm extractEntry vendor/zlib/watcom/watcom_l.mak
+990 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder_base.S
+991 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder_namespace.h
+992 silly gunzTarPerm extractEntry vendor/zlib/win32/DLL_FAQ.txt
+993 silly gunzTarPerm extractEntry vendor/zlib/win32/Makefile.bor
+994 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.h
+995 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.S
+996 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/sandy2x.S
+997 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c
+998 silly gunzTarPerm extractEntry vendor/zlib/win32/Makefile.gcc
+999 silly gunzTarPerm extractEntry vendor/zlib/win32/Makefile.msc
+1000 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.h
+1001 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c
+1002 silly gunzTarPerm extractEntry vendor/zlib/win32/README-WIN32.txt
+1003 silly gunzTarPerm extractEntry vendor/zlib/win32/VisualC.txt
+1004 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c
+1005 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c
+1006 silly gunzTarPerm extractEntry vendor/zlib/win32/zlib.def
+1007 silly gunzTarPerm extractEntry vendor/zlib/win32/zlib1.rc
+1008 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c
+1009 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c
+1010 silly gunzTarPerm extractEntry vendor/zlib/zconf.h
+1011 silly gunzTarPerm extractEntry vendor/zlib/zconf.h.cmakein
+1012 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c
+1013 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash_ref.h
+1014 silly gunzTarPerm extractEntry vendor/zlib/zconf.h.in
+1015 silly gunzTarPerm extractEntry vendor/zlib/zlib.3
+1016 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c
+1017 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c
+1018 silly gunzTarPerm extractEntry vendor/zlib/zlib.3.pdf
+1019 silly gunzTarPerm extractEntry vendor/zlib/zlib.h
+1020 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c
+1021 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c
+1022 silly gunzTarPerm extractEntry vendor/zlib/zlib.map
+1023 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/crypto_sign.c
+1024 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/ref10/ed25519_ref10.h
+1025 silly gunzTarPerm extractEntry vendor/zlib/zlib.pc.cmakein
+1026 silly gunzTarPerm extractEntry vendor/zlib/zlib.pc.in
+1027 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c
+1028 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c
+1029 silly gunzTarPerm extractEntry vendor/zlib/zlib2ansi
+1030 silly gunzTarPerm extractEntry vendor/zlib/zutil.c
+1031 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c
+1032 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c
+1033 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c
+1034 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c
+1035 silly gunzTarPerm extractEntry vendor/zlib/zutil.h
+1036 silly gunzTarPerm extractEntry vendor/zlib.gyp
+1037 silly gunzTarPerm extractEntry binding.gyp
+1038 silly gunzTarPerm extractEntry cpp/constants.h
+1039 silly gunzTarPerm extractEntry cpp/encoder.h
+1040 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.h
+1041 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c
+1042 silly gunzTarPerm extractEntry cpp/sysdep.h
+1043 silly gunzTarPerm extractEntry ex/erlpack/test/erlpack_test.exs
+1044 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.h
+1045 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/u0.h
+1046 silly gunzTarPerm extractEntry ex/erlpack/test/test_helper.exs
+1047 silly gunzTarPerm extractEntry COPYING
+1048 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/u1.h
+1049 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/u4.h
+1050 silly gunzTarPerm extractEntry mix.exs
+1051 silly gunzTarPerm extractEntry MANIFEST.in
+1052 silly gunzTarPerm extractEntry py/erlpack/__init__.py
+1053 silly gunzTarPerm extractEntry py/erlpack/_packer.cpp
+1054 silly gunzTarPerm extractEntry py/erlpack/_packer.pyx
+1055 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/u8.h
+1056 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c
+1057 silly gunzTarPerm extractEntry py/erlpack/_unpacker.cpp
+1058 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.h
+1059 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c
+1060 silly gunzTarPerm extractEntry py/erlpack/_unpacker.pyx
+1061 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.h
+1062 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/crypto_stream.c
+1063 silly gunzTarPerm extractEntry py/erlpack/constants.py
+1064 silly gunzTarPerm extractEntry py/erlpack/types.py
+1065 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c
+1066 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.h
+1067 silly gunzTarPerm extractEntry py/scripts/generate_generated_tests.sh
+1068 silly gunzTarPerm extractEntry py/tests/test_generated.py
+1069 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c
+1070 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.h
+1071 silly gunzTarPerm extractEntry py/tests/integration/echo_server.py
+1072 silly gunzTarPerm extractEntry py/tests/integration/echo_test.exs
+1073 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6-asm.S
+1074 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c
+1075 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.h
+1076 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c
+1077 silly gunzTarPerm extractEntry py/tests/test_dict.py
+1078 silly gunzTarPerm extractEntry py/tests/test_encode_hook.py
+1079 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.h
+1080 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c
+1081 silly gunzTarPerm extractEntry py/tests/test_erlpack_magic_method.py
+1082 silly gunzTarPerm extractEntry py/tests/test_false.py
+1083 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.h
+1084 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/u0.h
+1085 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/u1.h
+1086 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/u4.h
+1087 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/u8.h
+1088 silly gunzTarPerm extractEntry py/tests/test_floats.py
+1089 silly gunzTarPerm extractEntry py/tests/test_atom.py
+1090 silly gunzTarPerm extractEntry py/tests/test_ints.py
+1091 silly gunzTarPerm extractEntry py/tests/test_list.py
+1092 silly gunzTarPerm extractEntry py/tests/test_nil.py
+1093 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c
+1094 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c
+1095 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c
+1096 silly gunzTarPerm extractEntry py/tests/test_string.py
+1097 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c
+1098 silly gunzTarPerm extractEntry py/tests/test_true.py
+1099 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c
+1100 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c
+1101 silly gunzTarPerm extractEntry py/tests/test_tuple.py
+1102 silly gunzTarPerm extractEntry py/tests/test_unicode.py
+1103 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/crypto_verify/sodium/verify.c
+1104 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/Makefile.am
+1105 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium.h
+1106 silly gunzTarPerm extractEntry pytest.ini
+1107 silly gunzTarPerm extractEntry setup.cfg
+1108 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/core.h
+1109 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_aead_aes256gcm.h
+1110 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_aead_chacha20poly1305.h
+1111 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_aead_xchacha20poly1305.h
+1112 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha256.h
+1113 silly gunzTarPerm extractEntry setup.py
+1114 silly gunzTarPerm extractEntry js/index.js
+1115 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512.h
+1116 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512256.h
+1117 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_auth.h
+1118 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_box_curve25519xchacha20poly1305.h
+1119 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h
+1120 silly gunzTarPerm extractEntry js/__tests__/decoder-test.js
+1121 silly gunzTarPerm extractEntry js/__tests__/encoder-test.js
+1122 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_box.h
+1123 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_core_hchacha20.h
+1124 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_core_hsalsa20.h
+1125 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_core_salsa20.h
+1126 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h
+1127 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_core_salsa208.h
+1128 silly gunzTarPerm extractEntry js/decoder.h
+1129 silly gunzTarPerm extractEntry js/encoder.h
+1130 silly gunzTarPerm extractEntry js/erlpack.cc
+1131 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_generichash_blake2b.h
+1132 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_generichash.h
+1133 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_hash_sha256.h
+1134 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h
+1135 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_hash.h
+1136 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_kdf_blake2b.h
+1137 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_kdf.h
+1138 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_kx.h
+1139 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_onetimeauth_poly1305.h
+1140 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_onetimeauth.h
+1141 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_pwhash_argon2i.h
+1142 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_pwhash_argon2id.h
+1143 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_pwhash_scryptsalsa208sha256.h
+1144 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_pwhash.h
+1145 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h
+1146 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_scalarmult.h
+1147 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_secretbox_xchacha20poly1305.h
+1148 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_secretbox_xsalsa20poly1305.h
+1149 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_secretbox.h
+1150 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_secretstream_xchacha20poly1305.h
+1151 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_shorthash_siphash24.h
+1152 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_shorthash.h
+1153 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_sign_ed25519.h
+1154 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_sign_edwards25519sha512batch.h
+1155 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_sign.h
+1156 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_chacha20.h
+1157 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_salsa20.h
+1158 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_salsa2012.h
+1159 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_salsa208.h
+1160 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_xchacha20.h
+1161 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h
+1162 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_stream.h
+1163 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_verify_16.h
+1164 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_verify_32.h
+1165 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/crypto_verify_64.h
+1166 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/export.h
+1167 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/common.h
+1168 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/curve25519_ref10.h
+1169 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/implementations.h
+1170 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/mutex.h
+1171 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/private/sse2_64_32.h
+1172 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/randombytes_nativeclient.h
+1173 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/randombytes_salsa20_random.h
+1174 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/randombytes_sysrandom.h
+1175 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/randombytes.h
+1176 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/runtime.h
+1177 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/utils.h
+1178 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/include/sodium/version.h.in
+1179 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/Makefile.am
+1180 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/randombytes/nativeclient/randombytes_nativeclient.c
+1181 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/randombytes/randombytes.c
+1182 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/randombytes/salsa20/randombytes_salsa20_random.c
+1183 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/randombytes/sysrandom/randombytes_sysrandom.c
+1184 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/sodium/codecs.c
+1185 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/sodium/core.c
+1186 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/sodium/runtime.c
+1187 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/sodium/utils.c
+1188 silly gunzTarPerm extractEntry deps/libsodium/src/libsodium/sodium/version.c
+1189 silly gunzTarPerm extractEntry deps/libsodium/src/Makefile.am
+1190 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_aes256gcm.c
+1191 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_aes256gcm.exp
+1192 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_chacha20poly1305.c
+1193 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_chacha20poly1305.exp
+1194 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_xchacha20poly1305.c
+1195 silly gunzTarPerm extractEntry deps/libsodium/test/default/aead_xchacha20poly1305.exp
+1196 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth.c
+1197 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth.exp
+1198 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth2.c
+1199 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth2.exp
+1200 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth3.c
+1201 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth3.exp
+1202 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth5.c
+1203 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth5.exp
+1204 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth6.c
+1205 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth6.exp
+1206 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth7.c
+1207 silly gunzTarPerm extractEntry deps/libsodium/test/default/auth7.exp
+1208 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_easy.c
+1209 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_easy.exp
+1210 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_easy2.c
+1211 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_easy2.exp
+1212 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_seal.c
+1213 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_seal.exp
+1214 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_seed.c
+1215 silly gunzTarPerm extractEntry deps/libsodium/test/default/box_seed.exp
+1216 silly gunzTarPerm extractEntry deps/libsodium/test/default/box.c
+1217 silly gunzTarPerm extractEntry deps/libsodium/test/default/box.exp
+1218 silly gunzTarPerm extractEntry deps/libsodium/test/default/box2.c
+1219 silly gunzTarPerm extractEntry deps/libsodium/test/default/box2.exp
+1220 silly gunzTarPerm extractEntry deps/libsodium/test/default/box7.c
+1221 silly gunzTarPerm extractEntry deps/libsodium/test/default/box7.exp
+1222 silly gunzTarPerm extractEntry deps/libsodium/test/default/box8.c
+1223 silly gunzTarPerm extractEntry deps/libsodium/test/default/box8.exp
+1224 silly gunzTarPerm extractEntry deps/libsodium/test/default/chacha20.c
+1225 silly gunzTarPerm extractEntry deps/libsodium/test/default/chacha20.exp
+1226 silly gunzTarPerm extractEntry deps/libsodium/test/default/cmptest.h
+1227 silly gunzTarPerm extractEntry deps/libsodium/test/default/codecs.c
+1228 silly gunzTarPerm extractEntry deps/libsodium/test/default/codecs.exp
+1229 silly gunzTarPerm extractEntry deps/libsodium/test/default/core1.c
+1230 silly gunzTarPerm extractEntry deps/libsodium/test/default/core1.exp
+1231 silly gunzTarPerm extractEntry deps/libsodium/test/default/core2.c
+1232 silly gunzTarPerm extractEntry deps/libsodium/test/default/core2.exp
+1233 silly gunzTarPerm extractEntry deps/libsodium/test/default/core3.c
+1234 silly gunzTarPerm extractEntry deps/libsodium/test/default/core3.exp
+1235 silly gunzTarPerm extractEntry deps/libsodium/test/default/core4.c
+1236 silly gunzTarPerm extractEntry deps/libsodium/test/default/core4.exp
+1237 silly gunzTarPerm extractEntry deps/libsodium/test/default/core5.c
+1238 silly gunzTarPerm extractEntry deps/libsodium/test/default/core5.exp
+1239 silly gunzTarPerm extractEntry deps/libsodium/test/default/core6.c
+1240 silly gunzTarPerm extractEntry deps/libsodium/test/default/core6.exp
+1241 silly gunzTarPerm extractEntry deps/libsodium/test/default/ed25519_convert.c
+1242 silly gunzTarPerm extractEntry deps/libsodium/test/default/ed25519_convert.exp
+1243 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash.c
+1244 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash.exp
+1245 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash2.c
+1246 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash2.exp
+1247 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash3.c
+1248 silly gunzTarPerm extractEntry deps/libsodium/test/default/generichash3.exp
+1249 silly gunzTarPerm extractEntry deps/libsodium/test/default/hash.c
+1250 silly gunzTarPerm extractEntry deps/libsodium/test/default/hash.exp
+1251 silly gunzTarPerm extractEntry deps/libsodium/test/default/hash2.exp
+1252 silly gunzTarPerm extractEntry deps/libsodium/test/default/hash3.c
+1253 silly gunzTarPerm extractEntry deps/libsodium/test/default/hash3.exp
+1254 silly gunzTarPerm extractEntry deps/libsodium/test/default/kdf.c
+1255 silly gunzTarPerm extractEntry deps/libsodium/test/default/kdf.exp
+1256 silly gunzTarPerm extractEntry deps/libsodium/test/default/keygen.c
+1257 silly gunzTarPerm extractEntry deps/libsodium/test/default/keygen.exp
+1258 silly gunzTarPerm extractEntry deps/libsodium/test/default/kx.c
+1259 silly gunzTarPerm extractEntry deps/libsodium/test/default/kx.exp
+1260 silly gunzTarPerm extractEntry deps/libsodium/test/default/Makefile.am
+1261 silly gunzTarPerm extractEntry deps/libsodium/test/default/metamorphic.c
+1262 silly gunzTarPerm extractEntry deps/libsodium/test/default/metamorphic.exp
+1263 silly gunzTarPerm extractEntry deps/libsodium/test/default/misuse.c
+1264 silly gunzTarPerm extractEntry deps/libsodium/test/default/misuse.exp
+1265 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth.c
+1266 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth.exp
+1267 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth2.c
+1268 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth2.exp
+1269 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth7.c
+1270 silly gunzTarPerm extractEntry deps/libsodium/test/default/onetimeauth7.exp
+1271 silly gunzTarPerm extractEntry deps/libsodium/test/default/pre.js.inc
+1272 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_argon2i.c
+1273 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_argon2i.exp
+1274 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_argon2id.c
+1275 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_argon2id.exp
+1276 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_scrypt_ll.c
+1277 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_scrypt_ll.exp
+1278 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_scrypt.c
+1279 silly gunzTarPerm extractEntry deps/libsodium/test/default/pwhash_scrypt.exp
+1280 silly gunzTarPerm extractEntry deps/libsodium/test/default/randombytes.c
+1281 silly gunzTarPerm extractEntry deps/libsodium/test/default/randombytes.exp
+1282 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult.c
+1283 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult.exp
+1284 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult2.c
+1285 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult2.exp
+1286 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult5.c
+1287 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult5.exp
+1288 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult6.c
+1289 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult6.exp
+1290 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult7.c
+1291 silly gunzTarPerm extractEntry deps/libsodium/test/default/scalarmult7.exp
+1292 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox_easy.c
+1293 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox_easy.exp
+1294 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox_easy2.c
+1295 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox_easy2.exp
+1296 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox.c
+1297 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox.exp
+1298 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox2.c
+1299 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox2.exp
+1300 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox7.c
+1301 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox7.exp
+1302 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox8.c
+1303 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretbox8.exp
+1304 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretstream.c
+1305 silly gunzTarPerm extractEntry deps/libsodium/test/default/secretstream.exp
+1306 silly gunzTarPerm extractEntry deps/libsodium/test/default/shorthash.c
+1307 silly gunzTarPerm extractEntry deps/libsodium/test/default/shorthash.exp
+1308 silly gunzTarPerm extractEntry deps/libsodium/test/default/sign.c
+1309 silly gunzTarPerm extractEntry deps/libsodium/test/default/sign.exp
+1310 silly gunzTarPerm extractEntry deps/libsodium/test/default/siphashx24.c
+1311 silly gunzTarPerm extractEntry deps/libsodium/test/default/siphashx24.exp
+1312 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_core.c
+1313 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_core.exp
+1314 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils.c
+1315 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils.exp
+1316 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils2.c
+1317 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils2.exp
+1318 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils3.c
+1319 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_utils3.exp
+1320 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_version.c
+1321 silly gunzTarPerm extractEntry deps/libsodium/test/default/sodium_version.exp
+1322 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream.c
+1323 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream.exp
+1324 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream2.c
+1325 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream2.exp
+1326 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream3.c
+1327 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream3.exp
+1328 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream4.c
+1329 silly gunzTarPerm extractEntry deps/libsodium/test/default/stream4.exp
+1330 silly gunzTarPerm extractEntry deps/libsodium/test/default/verify1.c
+1331 silly gunzTarPerm extractEntry deps/libsodium/test/default/verify1.exp
+1332 silly gunzTarPerm extractEntry deps/libsodium/test/default/wintest.bat
+1333 silly gunzTarPerm extractEntry deps/libsodium/test/default/xchacha20.c
+1334 silly gunzTarPerm extractEntry deps/libsodium/test/default/xchacha20.exp
+1335 silly gunzTarPerm extractEntry deps/libsodium/test/Makefile.am
+1336 silly gunzTarPerm extractEntry deps/libsodium/test/quirks/quirks.h
+1337 silly gunzTarPerm extractEntry deps/libsodium/THANKS
+1338 silly gunzTarPerm extractEntry docs/auth.md
+1339 silly gunzTarPerm extractEntry docs/box.md
+1340 silly gunzTarPerm extractEntry docs/crypto-base-buffer.md
+1341 silly gunzTarPerm extractEntry docs/crypto-base.md
+1342 silly gunzTarPerm extractEntry docs/generichash.md
+1343 silly gunzTarPerm extractEntry docs/key-manager.md
+1344 silly gunzTarPerm extractEntry docs/low-level-api.md
+1345 silly gunzTarPerm extractEntry docs/not implemented.md
+1346 silly gunzTarPerm extractEntry docs/onetime-auth.md
+1347 silly gunzTarPerm extractEntry docs/ported-functions.md
+1348 silly gunzTarPerm extractEntry docs/pwhash.md
+1349 silly gunzTarPerm extractEntry docs/secretbox.md
+1350 silly gunzTarPerm extractEntry docs/sign.md
+1351 silly gunzTarPerm extractEntry docs/sodium.md
+1352 silly gunzTarPerm extractEntry docs/stream.md
+1353 silly gunzTarPerm extractEntry docs/toBuffer.md
+1354 silly gunzTarPerm extractEntry examples/ECDH.js
+1355 silly gunzTarPerm extractEntry examples/generichash.js
+1356 silly gunzTarPerm extractEntry examples/low-level-api.js
+1357 silly gunzTarPerm extractEntry examples/pwhash.js
+1358 silly gunzTarPerm extractEntry lib/auth.js
+1359 silly gunzTarPerm extractEntry lib/box.js
+1360 silly gunzTarPerm extractEntry lib/crypto-base-buffer.js
+1361 silly gunzTarPerm extractEntry lib/ecdh.js
+1362 silly gunzTarPerm extractEntry lib/keys/auth-key.js
+1363 silly gunzTarPerm extractEntry lib/keys/box-key.js
+1364 silly gunzTarPerm extractEntry lib/keys/dh-key.js
+1365 silly gunzTarPerm extractEntry lib/keys/keypair.js
+1366 silly gunzTarPerm extractEntry lib/keys/onetime-key.js
+1367 silly gunzTarPerm extractEntry lib/keys/secretbox-key.js
+1368 silly gunzTarPerm extractEntry lib/keys/sign-key.js
+1369 silly gunzTarPerm extractEntry lib/keys/stream-key.js
+1370 silly gunzTarPerm extractEntry lib/nonces/box-nonce.js
+1371 silly gunzTarPerm extractEntry lib/nonces/secretbox-nonce.js
+1372 silly gunzTarPerm extractEntry lib/nonces/stream-nonce.js
+1373 silly gunzTarPerm extractEntry lib/onetime-auth.js
+1374 silly gunzTarPerm extractEntry lib/secretbox.js
+1375 silly gunzTarPerm extractEntry lib/sign.js
+1376 silly gunzTarPerm extractEntry lib/sodium.js
+1377 silly gunzTarPerm extractEntry lib/stream.js
+1378 silly gunzTarPerm extractEntry lib/toBuffer.js
+1379 silly gunzTarPerm extractEntry src/crypto_aead.cc
+1380 silly gunzTarPerm extractEntry src/crypto_auth_algos.cc
+1381 silly gunzTarPerm extractEntry src/crypto_auth.cc
+1382 silly gunzTarPerm extractEntry src/crypto_box_curve25519xsalsa20.cc
+1383 silly gunzTarPerm extractEntry src/crypto_box_curve25519xsalsa20poly1305.cc
+1384 silly gunzTarPerm extractEntry src/crypto_box.cc
+1385 silly gunzTarPerm extractEntry src/crypto_core.cc
+1386 silly gunzTarPerm extractEntry src/crypto_generichash_blake2b.cc
+1387 silly gunzTarPerm extractEntry src/crypto_generichash.cc
+1388 silly gunzTarPerm extractEntry src/crypto_hash_sha256.cc
+1389 silly gunzTarPerm extractEntry src/crypto_hash_sha512.cc
+1390 silly gunzTarPerm extractEntry src/crypto_hash.cc
+1391 silly gunzTarPerm extractEntry src/crypto_onetimeauth_poly1305.cc
+1392 silly gunzTarPerm extractEntry src/crypto_onetimeauth.cc
+1393 silly gunzTarPerm extractEntry src/crypto_pwhash.cc
+1394 silly gunzTarPerm extractEntry src/crypto_scalarmult_curve25519.cc
+1395 silly gunzTarPerm extractEntry src/crypto_scalarmult.cc
+1396 silly gunzTarPerm extractEntry src/crypto_secretbox_xsalsa20poly1305.cc
+1397 silly gunzTarPerm extractEntry src/crypto_secretbox.cc
+1398 silly gunzTarPerm extractEntry src/crypto_shorthash_siphash24.cc
+1399 silly gunzTarPerm extractEntry src/crypto_shorthash.cc
+1400 silly gunzTarPerm extractEntry src/crypto_sign_ed25519.cc
+1401 silly gunzTarPerm extractEntry src/crypto_sign.cc
+1402 silly gunzTarPerm extractEntry src/crypto_stream.cc
+1403 silly gunzTarPerm extractEntry src/crypto_streams.cc
+1404 silly gunzTarPerm extractEntry src/helpers.cc
+1405 silly gunzTarPerm extractEntry src/include/crypto_aead.h
+1406 silly gunzTarPerm extractEntry src/include/crypto_auth_algos.h
+1407 silly gunzTarPerm extractEntry src/include/crypto_core.h
+1408 silly gunzTarPerm extractEntry src/include/crypto_onetimeauth_poly1305.h
+1409 silly gunzTarPerm extractEntry src/include/crypto_scalarmult_curve25519.h
+1410 silly gunzTarPerm extractEntry src/include/crypto_sign_ed25519.h
+1411 silly gunzTarPerm extractEntry src/include/crypto_streams.h
+1412 silly gunzTarPerm extractEntry src/include/node_sodium_register.h
+1413 silly gunzTarPerm extractEntry src/include/node_sodium.h
+1414 silly gunzTarPerm extractEntry src/randombytes.cc
+1415 verbose write writing to /Users/Evan/discord-bot/node_modules/erlpack/package.json
+1416 silly gunzTarPerm extractEntry src/sodium_runtime.cc
+1417 silly gunzTarPerm extractEntry src/sodium.cc
+1418 info preinstall erlpack@0.1.0
+1419 verbose readDependencies loading dependencies from /Users/Evan/discord-bot/node_modules/erlpack/package.json
+1420 silly gunzTarPerm extractEntry test/test_aead_aes256gcm.js
+1421 silly gunzTarPerm extractEntry test/test_auth.js
+1422 silly prepareForInstallMany adding bindings@^1.2.1 from erlpack dependencies
+1423 silly prepareForInstallMany adding nan@^2.1.0 from erlpack dependencies
+1424 verbose readDependencies loading dependencies from /Users/Evan/discord-bot/node_modules/erlpack/package.json
+1425 silly gunzTarPerm extractEntry test/test_box.js
+1426 silly gunzTarPerm extractEntry test/test_crypto_aead.js
+1427 silly cache add args [ 'bindings@^1.2.1', null ]
+1428 verbose cache add spec bindings@^1.2.1
+1429 silly cache add args [ 'nan@^2.1.0', null ]
+1430 verbose cache add spec nan@^2.1.0
+1431 silly cache add parsed spec Result {
+1431 silly cache add   raw: 'bindings@^1.2.1',
+1431 silly cache add   scope: null,
+1431 silly cache add   name: 'bindings',
+1431 silly cache add   rawSpec: '^1.2.1',
+1431 silly cache add   spec: '>=1.2.1 <2.0.0',
+1431 silly cache add   type: 'range' }
+1432 silly addNamed bindings@>=1.2.1 <2.0.0
+1433 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for bindings
+1434 silly addNameRange { name: 'bindings', range: '>=1.2.1 <2.0.0', hasData: false }
+1435 silly mapToRegistry name bindings
+1436 silly mapToRegistry using default registry
+1437 silly mapToRegistry registry https://registry.npmjs.org/
+1438 silly mapToRegistry data Result {
+1438 silly mapToRegistry   raw: 'bindings',
+1438 silly mapToRegistry   scope: null,
+1438 silly mapToRegistry   name: 'bindings',
+1438 silly mapToRegistry   rawSpec: '',
+1438 silly mapToRegistry   spec: 'latest',
+1438 silly mapToRegistry   type: 'tag' }
+1439 silly mapToRegistry uri https://registry.npmjs.org/bindings
+1440 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+1441 silly cache add parsed spec Result {
+1441 silly cache add   raw: 'nan@^2.1.0',
+1441 silly cache add   scope: null,
+1441 silly cache add   name: 'nan',
+1441 silly cache add   rawSpec: '^2.1.0',
+1441 silly cache add   spec: '>=2.1.0 <3.0.0',
+1441 silly cache add   type: 'range' }
+1442 silly addNamed nan@>=2.1.0 <3.0.0
+1443 verbose addNamed ">=2.1.0 <3.0.0" is a valid semver range for nan
+1444 silly addNameRange { name: 'nan', range: '>=2.1.0 <3.0.0', hasData: false }
+1445 silly mapToRegistry name nan
+1446 silly mapToRegistry using default registry
+1447 silly mapToRegistry registry https://registry.npmjs.org/
+1448 silly mapToRegistry data Result {
+1448 silly mapToRegistry   raw: 'nan',
+1448 silly mapToRegistry   scope: null,
+1448 silly mapToRegistry   name: 'nan',
+1448 silly mapToRegistry   rawSpec: '',
+1448 silly mapToRegistry   spec: 'latest',
+1448 silly mapToRegistry   type: 'tag' }
+1449 silly mapToRegistry uri https://registry.npmjs.org/nan
+1450 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+1451 verbose request uri https://registry.npmjs.org/bindings
+1452 verbose request no auth needed
+1453 info attempt registry request try #1 at 11:50:00 PM
+1454 verbose etag W/"032d1e4fd790b7bf3a22d4035271b1a6"
+1455 verbose lastModified Sat, 26 May 2018 18:26:50 GMT
+1456 http request GET https://registry.npmjs.org/bindings
+1457 verbose request uri https://registry.npmjs.org/nan
+1458 verbose request no auth needed
+1459 info attempt registry request try #1 at 11:50:00 PM
+1460 verbose etag W/"d3fbf46e08c4ad5dee07ffa0e4dac254"
+1461 verbose lastModified Sat, 29 Sep 2018 08:09:58 GMT
+1462 http request GET https://registry.npmjs.org/nan
+1463 silly gunzTarPerm extractEntry test/test_crypto_auth.js
+1464 silly gunzTarPerm extractEntry test/test_crypto_box_easy.js
+1465 silly gunzTarPerm extractEntry test/test_crypto_box.js
+1466 silly gunzTarPerm extractEntry test/test_crypto_constants.js
+1467 silly gunzTarPerm extractEntry test/test_crypto_generichash_blake2b.js
+1468 silly gunzTarPerm extractEntry test/test_crypto_generichash.js
+1469 silly gunzTarPerm extractEntry test/test_crypto_hash.js
+1470 silly gunzTarPerm extractEntry test/test_crypto_onetimeauth.js
+1471 silly gunzTarPerm extractEntry test/test_crypto_pwhash.js
+1472 silly gunzTarPerm extractEntry test/test_crypto_random.js
+1473 silly gunzTarPerm extractEntry test/test_crypto_secretbox.js
+1474 silly gunzTarPerm extractEntry test/test_crypto_sign.js
+1475 silly gunzTarPerm extractEntry test/test_crypto_stream.js
+1476 silly gunzTarPerm extractEntry test/test_crypto_string_comparisons.js
+1477 silly gunzTarPerm extractEntry test/test_crypto_utils.js
+1478 silly gunzTarPerm extractEntry test/test_crypto_version.js
+1479 silly gunzTarPerm extractEntry test/test_crypto-base-buffer.js
+1480 silly gunzTarPerm extractEntry test/test_dh.js
+1481 silly gunzTarPerm extractEntry test/test_ecdh.js
+1482 silly gunzTarPerm extractEntry test/test_key_all_key.js
+1483 silly gunzTarPerm extractEntry test/test_key_all_keypair.js
+1484 silly gunzTarPerm extractEntry test/test_key_keypair.js
+1485 silly gunzTarPerm extractEntry test/test_large_numbers.js
+1486 silly gunzTarPerm extractEntry test/test_nonces_all.js
+1487 silly gunzTarPerm extractEntry test/test_onetime_auth.js
+1488 silly gunzTarPerm extractEntry test/test_randombytes.js
+1489 silly gunzTarPerm extractEntry test/test_secretbox.js
+1490 silly gunzTarPerm extractEntry test/test_sign.js
+1491 silly gunzTarPerm extractEntry test/test_sodium_algos_auth.js
+1492 silly gunzTarPerm extractEntry test/test_sodium_auth.js
+1493 silly gunzTarPerm extractEntry test/test_sodium_auth2.js
+1494 silly gunzTarPerm extractEntry test/test_sodium_auth5.js
+1495 silly gunzTarPerm extractEntry test/test_sodium.js
+1496 silly gunzTarPerm extractEntry test/test_stream.js
+1497 silly gunzTarPerm extractEntry test/test_toBuffer.js
+1498 http 304 https://registry.npmjs.org/bindings
+1499 verbose headers { date: 'Thu, 01 Nov 2018 03:50:00 GMT',
+1499 verbose headers   connection: 'keep-alive',
+1499 verbose headers   'set-cookie': [ '__cfduid=d0245e8aa1e44323580299ea0475d919c1541044200; expires=Fri, 01-Nov-19 03:50:00 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+1499 verbose headers   'cf-cache-status': 'HIT',
+1499 verbose headers   'cache-control': 'max-age=300',
+1499 verbose headers   'cf-ray': '472b650b89a3c1a9-IAD',
+1499 verbose headers   etag: '"032d1e4fd790b7bf3a22d4035271b1a6"',
+1499 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1499 verbose headers   'last-modified': 'Sat, 26 May 2018 18:26:50 GMT',
+1499 verbose headers   vary: 'accept-encoding, accept',
+1499 verbose headers   server: 'cloudflare' }
+1500 silly get cb [ 304,
+1500 silly get   { date: 'Thu, 01 Nov 2018 03:50:00 GMT',
+1500 silly get     connection: 'keep-alive',
+1500 silly get     'set-cookie': [ '__cfduid=d0245e8aa1e44323580299ea0475d919c1541044200; expires=Fri, 01-Nov-19 03:50:00 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+1500 silly get     'cf-cache-status': 'HIT',
+1500 silly get     'cache-control': 'max-age=300',
+1500 silly get     'cf-ray': '472b650b89a3c1a9-IAD',
+1500 silly get     etag: '"032d1e4fd790b7bf3a22d4035271b1a6"',
+1500 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1500 silly get     'last-modified': 'Sat, 26 May 2018 18:26:50 GMT',
+1500 silly get     vary: 'accept-encoding, accept',
+1500 silly get     server: 'cloudflare' } ]
+1501 verbose etag https://registry.npmjs.org/bindings from cache
+1502 verbose get saving bindings to /Users/Evan/.npm/registry.npmjs.org/bindings/.cache.json
+1503 verbose correctMkdir /Users/Evan/.npm correctMkdir not in flight; initializing
+1504 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.1 <2.0.0', hasData: true }
+1505 silly addNameRange versions [ 'bindings',
+1505 silly addNameRange   [ '0.0.1',
+1505 silly addNameRange     '0.1.0',
+1505 silly addNameRange     '0.1.1',
+1505 silly addNameRange     '0.2.0',
+1505 silly addNameRange     '0.2.1',
+1505 silly addNameRange     '0.2.2',
+1505 silly addNameRange     '0.2.3',
+1505 silly addNameRange     '0.2.4',
+1505 silly addNameRange     '0.3.0',
+1505 silly addNameRange     '0.4.0',
+1505 silly addNameRange     '1.0.0',
+1505 silly addNameRange     '1.1.0',
+1505 silly addNameRange     '1.1.1',
+1505 silly addNameRange     '1.2.0',
+1505 silly addNameRange     '1.2.1',
+1505 silly addNameRange     '1.3.0' ] ]
+1506 silly addNamed bindings@1.3.0
+1507 verbose addNamed "1.3.0" is a plain semver version for bindings
+1508 silly cache afterAdd bindings@1.3.0
+1509 verbose afterAdd /Users/Evan/.npm/bindings/1.3.0/package/package.json not in flight; writing
+1510 verbose correctMkdir /Users/Evan/.npm correctMkdir not in flight; initializing
+1511 verbose afterAdd /Users/Evan/.npm/bindings/1.3.0/package/package.json written
+1512 http 304 https://registry.npmjs.org/nan
+1513 verbose headers { date: 'Thu, 01 Nov 2018 03:50:00 GMT',
+1513 verbose headers   connection: 'keep-alive',
+1513 verbose headers   'set-cookie': [ '__cfduid=d0a1095a14f4f03ed0571de60ac1aed221541044200; expires=Fri, 01-Nov-19 03:50:00 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+1513 verbose headers   'cf-cache-status': 'HIT',
+1513 verbose headers   'cache-control': 'max-age=300',
+1513 verbose headers   'cf-ray': '472b650bee7c573b-IAD',
+1513 verbose headers   etag: '"d3fbf46e08c4ad5dee07ffa0e4dac254"',
+1513 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1513 verbose headers   'last-modified': 'Sat, 29 Sep 2018 08:09:58 GMT',
+1513 verbose headers   vary: 'accept-encoding, accept',
+1513 verbose headers   'x-amz-meta-rev': '180-441181393e8d445d77f4ad350b41dd1c',
+1513 verbose headers   server: 'cloudflare' }
+1514 silly get cb [ 304,
+1514 silly get   { date: 'Thu, 01 Nov 2018 03:50:00 GMT',
+1514 silly get     connection: 'keep-alive',
+1514 silly get     'set-cookie': [ '__cfduid=d0a1095a14f4f03ed0571de60ac1aed221541044200; expires=Fri, 01-Nov-19 03:50:00 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+1514 silly get     'cf-cache-status': 'HIT',
+1514 silly get     'cache-control': 'max-age=300',
+1514 silly get     'cf-ray': '472b650bee7c573b-IAD',
+1514 silly get     etag: '"d3fbf46e08c4ad5dee07ffa0e4dac254"',
+1514 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1514 silly get     'last-modified': 'Sat, 29 Sep 2018 08:09:58 GMT',
+1514 silly get     vary: 'accept-encoding, accept',
+1514 silly get     'x-amz-meta-rev': '180-441181393e8d445d77f4ad350b41dd1c',
+1514 silly get     server: 'cloudflare' } ]
+1515 verbose etag https://registry.npmjs.org/nan from cache
+1516 verbose get saving nan to /Users/Evan/.npm/registry.npmjs.org/nan/.cache.json
+1517 verbose correctMkdir /Users/Evan/.npm correctMkdir not in flight; initializing
+1518 silly addNameRange number 2 { name: 'nan', range: '>=2.1.0 <3.0.0', hasData: true }
+1519 silly addNameRange versions [ 'nan',
+1519 silly addNameRange   [ '0.3.0-wip',
+1519 silly addNameRange     '0.3.0-wip2',
+1519 silly addNameRange     '0.3.0',
+1519 silly addNameRange     '0.3.1',
+1519 silly addNameRange     '0.3.2',
+1519 silly addNameRange     '0.4.0',
+1519 silly addNameRange     '0.4.1',
+1519 silly addNameRange     '0.4.2',
+1519 silly addNameRange     '0.4.3',
+1519 silly addNameRange     '0.4.4',
+1519 silly addNameRange     '0.5.0',
+1519 silly addNameRange     '0.5.1',
+1519 silly addNameRange     '0.5.2',
+1519 silly addNameRange     '0.6.0',
+1519 silly addNameRange     '0.7.0',
+1519 silly addNameRange     '0.7.1',
+1519 silly addNameRange     '0.8.0',
+1519 silly addNameRange     '1.0.0',
+1519 silly addNameRange     '1.1.0',
+1519 silly addNameRange     '1.1.1',
+1519 silly addNameRange     '1.1.2',
+1519 silly addNameRange     '1.2.0',
+1519 silly addNameRange     '1.3.0',
+1519 silly addNameRange     '1.4.0',
+1519 silly addNameRange     '1.4.1',
+1519 silly addNameRange     '1.5.0',
+1519 silly addNameRange     '1.4.2',
+1519 silly addNameRange     '1.4.3',
+1519 silly addNameRange     '1.5.1',
+1519 silly addNameRange     '1.5.2',
+1519 silly addNameRange     '1.6.0',
+1519 silly addNameRange     '1.5.3',
+1519 silly addNameRange     '1.6.1',
+1519 silly addNameRange     '1.6.2',
+1519 silly addNameRange     '1.7.0',
+1519 silly addNameRange     '1.8.0',
+1519 silly addNameRange     '1.8.1',
+1519 silly addNameRange     '1.8.2',
+1519 silly addNameRange     '1.8.3',
+1519 silly addNameRange     '1.8.4',
+1519 silly addNameRange     '1.9.0',
+1519 silly addNameRange     '2.0.0',
+1519 silly addNameRange     '2.0.1',
+1519 silly addNameRange     '2.0.2',
+1519 silly addNameRange     '2.0.3',
+1519 silly addNameRange     '2.0.4',
+1519 silly addNameRange     '2.0.5',
+1519 silly addNameRange     '2.0.6',
+1519 silly addNameRange     '2.0.7',
+1519 silly addNameRange     '2.0.8',
+1519 silly addNameRange     '2.0.9',
+1519 silly addNameRange     '2.1.0',
+1519 silly addNameRange     '2.2.0',
+1519 silly addNameRange     '2.2.1',
+1519 silly addNameRange     '2.3.0',
+1519 silly addNameRange     '2.3.1',
+1519 silly addNameRange     '2.3.2',
+1519 silly addNameRange     '2.3.3',
+1519 silly addNameRange     '2.3.4',
+1519 silly addNameRange     '2.3.5',
+1519 silly addNameRange     '2.4.0',
+1519 silly addNameRange     '2.5.0',
+1519 silly addNameRange     '2.5.1',
+1519 silly addNameRange     '2.6.0',
+1519 silly addNameRange     '2.6.1',
+1519 silly addNameRange     '2.6.2',
+1519 silly addNameRange     '2.7.0',
+1519 silly addNameRange     '2.8.0',
+1519 silly addNameRange     '2.9.1',
+1519 silly addNameRange     '2.9.2',
+1519 silly addNameRange     '2.10.0',
+1519 silly addNameRange     '2.11.0',
+1519 silly addNameRange     '2.11.1' ] ]
+1520 silly addNamed nan@2.11.1
+1521 verbose addNamed "2.11.1" is a plain semver version for nan
+1522 silly cache afterAdd nan@2.11.1
+1523 verbose afterAdd /Users/Evan/.npm/nan/2.11.1/package/package.json not in flight; writing
+1524 verbose correctMkdir /Users/Evan/.npm correctMkdir not in flight; initializing
+1525 verbose afterAdd /Users/Evan/.npm/nan/2.11.1/package/package.json written
+1526 silly install resolved [ { name: 'bindings',
+1526 silly install resolved     description: 'Helper module for loading your native module\'s .node file',
+1526 silly install resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+1526 silly install resolved     version: '1.3.0',
+1526 silly install resolved     author:
+1526 silly install resolved      { name: 'Nathan Rajlich',
+1526 silly install resolved        email: 'nathan@tootallnate.net',
+1526 silly install resolved        url: 'http://tootallnate.net' },
+1526 silly install resolved     repository:
+1526 silly install resolved      { type: 'git',
+1526 silly install resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+1526 silly install resolved     main: './bindings.js',
+1526 silly install resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+1526 silly install resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+1526 silly install resolved     license: 'MIT',
+1526 silly install resolved     gitHead: '7fd065ee85386ad3d074d2506e03abe8f9b1588b',
+1526 silly install resolved     _id: 'bindings@1.3.0',
+1526 silly install resolved     _npmVersion: '5.0.3',
+1526 silly install resolved     _nodeVersion: '8.1.3',
+1526 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+1526 silly install resolved     dist:
+1526 silly install resolved      { integrity: 'sha512-DpLh5EzMR2kzvX1KIlVC0VkC3iZtHKTgdtZ0a3pglBZdaQFjt5S9g9xd1lE+YvXyfd6mtCeRnrUfOLYiTMlNSw==',
+1526 silly install resolved        shasum: 'b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7',
+1526 silly install resolved        tarball: 'https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz' },
+1526 silly install resolved     maintainers: [ [Object] ],
+1526 silly install resolved     _npmOperationalInternal:
+1526 silly install resolved      { host: 's3://npm-registry-packages',
+1526 silly install resolved        tmp: 'tmp/bindings-1.3.0.tgz_1500923768710_0.3334669852629304' },
+1526 silly install resolved     directories: {},
+1526 silly install resolved     _shasum: 'b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7',
+1526 silly install resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz',
+1526 silly install resolved     _from: 'bindings@>=1.2.1 <2.0.0',
+1526 silly install resolved     readme: 'ERROR: No README data found!' },
+1526 silly install resolved   { name: 'nan',
+1526 silly install resolved     version: '2.11.1',
+1526 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 10 compatibility',
+1526 silly install resolved     main: 'include_dirs.js',
+1526 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+1526 silly install resolved     scripts:
+1526 silly install resolved      { test: 'tap --gc --stderr test/js/*-test.js',
+1526 silly install resolved        'test:worker': 'node --experimental-worker test/tap-as-worker.js --gc --stderr test/js/*-test.js',
+1526 silly install resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2015 --directory test',
+1526 silly install resolved        docs: 'doc/.build.sh' },
+1526 silly install resolved     contributors:
+1526 silly install resolved      [ [Object],
+1526 silly install resolved        [Object],
+1526 silly install resolved        [Object],
+1526 silly install resolved        [Object],
+1526 silly install resolved        [Object],
+1526 silly install resolved        [Object],
+1526 silly install resolved        [Object],
+1526 silly install resolved        [Object] ],
+1526 silly install resolved     devDependencies:
+1526 silly install resolved      { bindings: '~1.2.1',
+1526 silly install resolved        commander: '^2.8.1',
+1526 silly install resolved        glob: '^5.0.14',
+1526 silly install resolved        request: '=2.81.0',
+1526 silly install resolved        'node-gyp': '~3.6.2',
+1526 silly install resolved        'readable-stream': '^2.1.4',
+1526 silly install resolved        tap: '~0.7.1',
+1526 silly install resolved        xtend: '~4.0.0' },
+1526 silly install resolved     license: 'MIT',
+1526 silly install resolved     gitHead: '85a74a1a724ddffdb81f709b745d5707a8a0f699',
+1526 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+1526 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+1526 silly install resolved     _id: 'nan@2.11.1',
+1526 silly install resolved     _npmVersion: '5.6.0',
+1526 silly install resolved     _nodeVersion: '9.6.0',
+1526 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+1526 silly install resolved     dist:
+1526 silly install resolved      { integrity: 'sha512-iji6k87OSXa0CcrLl9z+ZiYSuR2o+c0bGuNmXdrhTQTakxytAFsC56SArGYoiHlJlFoHSnvmhpceZJaXkVuOtA==',
+1526 silly install resolved        shasum: '90e22bccb8ca57ea4cd37cc83d3819b52eea6766',
+1526 silly install resolved        tarball: 'https://registry.npmjs.org/nan/-/nan-2.11.1.tgz',
+1526 silly install resolved        fileCount: 47,
+1526 silly install resolved        unpackedSize: 487268,
+1526 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbrzNSCRA9TVsSAnZWagAA0vgQAJoa+4F+vH2jgoMAIh2M\nduUOqUMSIKBSqcO1+OzZj8Xi1NTQXKnuxwUpcLfG7kUFSTXMNQ5pqXv4om8/\nViw9to8ZE5wAlK3Uqejk5qaQgVNmxeWtO91R85q3KNI6l1Z4qaRVJN13GwnS\nS1iwDlG/3dKLWAAcoJjP20uCHSvFmEsR+FJy0G5y76s+QSJNFI0TmZRXpowJ\nTezFZsBU/EFRBKKIv//nNvuSxh1/TITrD72sshjpjWdwWqJK0T9emtuBOGFT\nhjsYWGeykfu3HjxBwrzG4hNhyO7nQCl59TRoiPKyqNb70W9RvjJAcldwcMqX\nBddgZ5lZq4+qw+KBGnkoHvO5cS6CQoe3cgFNILGq1NNbPc22Kwp5CVdy1TXv\nC7BcutM20izHrQeBnilZTy+PFBx3eNixWJHFyVDZeGrF47t2jqKvcLEm1eF8\n7pA6/VxXDvE2D+MBjfpAWfSbZ0bR0jhDYvly+1DufutyCd+G6JzR04FsGg1y\nk873NoJ6P9WlZhzvnLBaoWOaQP8XOcxcugSQPP8lTA4hDmQwXY9K8Rwi6Ry2\nw+wGn2WAUQXQhKHJto6dJiIZyJ/yt0h5rjGnwzraXReQQXcTif2dSkvpAgPK\nRXVMRKQIh3us3mU6rSXwg08T4NopJLDLdEuwYYvoKy7xPZLx5uzP/phWLJsb\nG33O\r\n=ig8G\r\n-----END PGP SIGNATURE-----\r\n' },
+1526 silly install resolved     maintainers: [ [Object], [Object] ],
+1526 silly install resolved     directories: {},
+1526 silly install resolved     _npmOperationalInternal:
+1526 silly install resolved      { host: 's3://npm-registry-packages',
+1526 silly install resolved        tmp: 'tmp/nan_2.11.1_1538208593407_0.7919453530392533' },
+1526 silly install resolved     _hasShrinkwrap: false,
+1526 silly install resolved     _shasum: '90e22bccb8ca57ea4cd37cc83d3819b52eea6766',
+1526 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.11.1.tgz',
+1526 silly install resolved     _from: 'nan@>=2.1.0 <3.0.0',
+1526 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1527 info install bindings@1.3.0 into /Users/Evan/discord-bot/node_modules/erlpack
+1528 info install nan@2.11.1 into /Users/Evan/discord-bot/node_modules/erlpack
+1529 info installOne bindings@1.3.0
+1530 verbose installOne of bindings to /Users/Evan/discord-bot/node_modules/erlpack not in flight; installing
+1531 verbose correctMkdir /Users/Evan/.npm/_locks correctMkdir not in flight; initializing
+1532 info installOne nan@2.11.1
+1533 verbose installOne of nan to /Users/Evan/discord-bot/node_modules/erlpack not in flight; installing
+1534 verbose correctMkdir /Users/Evan/.npm/_locks correctMkdir not in flight; initializing
+1535 verbose lock using /Users/Evan/.npm/_locks/bindings-647e5c04577f59b5.lock for /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings
+1536 verbose lock using /Users/Evan/.npm/_locks/nan-43acb228b0217ef2.lock for /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan
+1537 silly install write writing bindings 1.3.0 to /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings
+1538 silly install write writing nan 2.11.1 to /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan
+1539 verbose unbuild node_modules/erlpack/node_modules/bindings
+1540 verbose unbuild node_modules/erlpack/node_modules/nan
+1541 silly gentlyRm /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings is being purged from base /Users/Evan/discord-bot
+1542 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings
+1543 silly gentlyRm /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan is being purged from base /Users/Evan/discord-bot
+1544 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan
+1545 verbose tar unpack /Users/Evan/.npm/bindings/1.3.0/package.tgz
+1546 verbose tar unpacking to /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings
+1547 silly gentlyRm /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings is being purged
+1548 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings
+1549 verbose tar unpack /Users/Evan/.npm/nan/2.11.1/package.tgz
+1550 verbose tar unpacking to /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan
+1551 silly gentlyRm /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan is being purged
+1552 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan
+1553 silly gunzTarPerm modes [ '755', '644' ]
+1554 silly gunzTarPerm modes [ '755', '644' ]
+1555 silly gunzTarPerm extractEntry package.json
+1556 silly gunzTarPerm extractEntry package.json
+1557 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+1558 silly gunzTarPerm extractEntry README.md
+1559 silly gunzTarPerm extractEntry bindings.js
+1560 silly gunzTarPerm extractEntry CHANGELOG.md
+1561 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+1562 silly gunzTarPerm extractEntry include_dirs.js
+1563 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+1564 silly gunzTarPerm extractEntry LICENSE.md
+1565 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+1566 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+1567 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+1568 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+1569 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+1570 silly gunzTarPerm extractEntry nan_callbacks.h
+1571 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+1572 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+1573 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+1574 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+1575 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+1576 silly gunzTarPerm extractEntry nan_converters.h
+1577 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+1578 silly gunzTarPerm extractEntry nan_define_own_property_helper.h
+1579 silly gunzTarPerm modified mode [ 'nan_define_own_property_helper.h', 436, 420 ]
+1580 verbose write writing to /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings/package.json
+1581 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+1582 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+1583 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+1584 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+1585 silly gunzTarPerm extractEntry nan_json.h
+1586 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 420 ]
+1587 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+1588 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+1589 info preinstall bindings@1.3.0
+1590 verbose readDependencies loading dependencies from /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings/package.json
+1591 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+1592 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+1593 silly gunzTarPerm extractEntry nan_new.h
+1594 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+1595 silly gunzTarPerm extractEntry nan_object_wrap.h
+1596 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+1597 verbose readDependencies loading dependencies from /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings/package.json
+1598 silly install resolved []
+1599 verbose about to build /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings
+1600 info build /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings
+1601 info linkStuff bindings@1.3.0
+1602 silly linkStuff bindings@1.3.0 has /Users/Evan/discord-bot/node_modules/erlpack/node_modules as its parent node_modules
+1603 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+1604 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+1605 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+1606 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+1607 verbose linkBins bindings@1.3.0
+1608 verbose linkMans bindings@1.3.0
+1609 verbose rebuildBundles bindings@1.3.0
+1610 info install bindings@1.3.0
+1611 info postinstall bindings@1.3.0
+1612 silly gunzTarPerm extractEntry nan_private.h
+1613 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 420 ]
+1614 silly gunzTarPerm extractEntry nan_string_bytes.h
+1615 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+1616 verbose unlock done using /Users/Evan/.npm/_locks/bindings-647e5c04577f59b5.lock for /Users/Evan/discord-bot/node_modules/erlpack/node_modules/bindings
+1617 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+1618 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+1619 silly gunzTarPerm extractEntry nan_weak.h
+1620 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+1621 silly gunzTarPerm extractEntry nan-2.11.1.tgz
+1622 silly gunzTarPerm modified mode [ 'nan-2.11.1.tgz', 436, 420 ]
+1623 silly gunzTarPerm extractEntry nan.h
+1624 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+1625 silly gunzTarPerm extractEntry README.md
+1626 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+1627 silly gunzTarPerm extractEntry doc/asyncworker.md
+1628 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+1629 silly gunzTarPerm extractEntry doc/buffers.md
+1630 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+1631 silly gunzTarPerm extractEntry doc/callback.md
+1632 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+1633 silly gunzTarPerm extractEntry doc/converters.md
+1634 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+1635 silly gunzTarPerm extractEntry doc/errors.md
+1636 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+1637 silly gunzTarPerm extractEntry doc/json.md
+1638 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 420 ]
+1639 silly gunzTarPerm extractEntry doc/maybe_types.md
+1640 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+1641 silly gunzTarPerm extractEntry doc/methods.md
+1642 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+1643 silly gunzTarPerm extractEntry doc/new.md
+1644 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+1645 silly gunzTarPerm extractEntry doc/node_misc.md
+1646 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+1647 silly gunzTarPerm extractEntry doc/object_wrappers.md
+1648 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+1649 silly gunzTarPerm extractEntry doc/persistent.md
+1650 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+1651 silly gunzTarPerm extractEntry doc/scopes.md
+1652 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+1653 silly gunzTarPerm extractEntry doc/script.md
+1654 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+1655 silly gunzTarPerm extractEntry doc/string_bytes.md
+1656 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+1657 silly gunzTarPerm extractEntry doc/v8_internals.md
+1658 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+1659 silly gunzTarPerm extractEntry doc/v8_misc.md
+1660 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+1661 silly gunzTarPerm extractEntry tools/1to2.js
+1662 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+1663 silly gunzTarPerm extractEntry tools/package.json
+1664 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+1665 silly gunzTarPerm extractEntry tools/README.md
+1666 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+1667 verbose write writing to /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan/package.json
+1668 info preinstall nan@2.11.1
+1669 verbose readDependencies loading dependencies from /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan/package.json
+1670 verbose readDependencies loading dependencies from /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan/package.json
+1671 silly install resolved []
+1672 verbose about to build /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan
+1673 info build /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan
+1674 info linkStuff nan@2.11.1
+1675 silly linkStuff nan@2.11.1 has /Users/Evan/discord-bot/node_modules/erlpack/node_modules as its parent node_modules
+1676 verbose linkBins nan@2.11.1
+1677 verbose linkMans nan@2.11.1
+1678 verbose rebuildBundles nan@2.11.1
+1679 info install nan@2.11.1
+1680 info postinstall nan@2.11.1
+1681 verbose unlock done using /Users/Evan/.npm/_locks/nan-43acb228b0217ef2.lock for /Users/Evan/discord-bot/node_modules/erlpack/node_modules/nan
+1682 verbose about to build /Users/Evan/discord-bot/node_modules/erlpack
+1683 info build /Users/Evan/discord-bot/node_modules/erlpack
+1684 info linkStuff erlpack@0.1.0
+1685 silly linkStuff erlpack@0.1.0 has /Users/Evan/discord-bot/node_modules as its parent node_modules
+1686 verbose linkBins erlpack@0.1.0
+1687 verbose linkMans erlpack@0.1.0
+1688 verbose rebuildBundles erlpack@0.1.0
+1689 verbose rebuildBundles [ 'bindings', 'nan' ]
+1690 info install erlpack@0.1.0
+1691 verbose unsafe-perm in lifecycle true
+1692 verbose write writing to /Users/Evan/discord-bot/node_modules/sodium/package.json
+1693 info preinstall sodium@2.0.3
+1694 info erlpack@0.1.0 Failed to exec install script
+1695 verbose unsafe-perm in lifecycle true
+1696 verbose unlock done using /Users/Evan/.npm/_locks/erlpack-d57a07b04d9b4d82.lock for /Users/Evan/discord-bot/node_modules/erlpack
+1697 info sodium@2.0.3 Failed to exec preinstall script
+1698 verbose unlock done using /Users/Evan/.npm/_locks/sodium-7eb96b4e26a4ed07.lock for /Users/Evan/discord-bot/node_modules/sodium
+1699 verbose unlock done using /Users/Evan/.npm/_locks/discord-js-c1f29c7e80ab2a44.lock for /Users/Evan/discord-bot/node_modules/discord.js
+1700 verbose stack Error: erlpack@0.1.0 install: `node-gyp rebuild`
+1700 verbose stack Exit status 1
+1700 verbose stack     at EventEmitter.<anonymous> (/Users/Evan/.nvm/versions/node/v4.4.5/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
+1700 verbose stack     at emitTwo (events.js:87:13)
+1700 verbose stack     at EventEmitter.emit (events.js:172:7)
+1700 verbose stack     at ChildProcess.<anonymous> (/Users/Evan/.nvm/versions/node/v4.4.5/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+1700 verbose stack     at emitTwo (events.js:87:13)
+1700 verbose stack     at ChildProcess.emit (events.js:172:7)
+1700 verbose stack     at maybeClose (internal/child_process.js:827:16)
+1700 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+1701 verbose pkgid erlpack@0.1.0
+1702 verbose cwd /Users/Evan/discord-bot
+1703 error Darwin 18.0.0
+1704 error argv "/Users/Evan/.nvm/versions/node/v4.4.5/bin/node" "/Users/Evan/.nvm/versions/node/v4.4.5/bin/npm" "install" "discord.js" "--save"
+1705 error node v4.4.5
+1706 error npm  v2.15.5
+1707 error code ELIFECYCLE
+1708 error erlpack@0.1.0 install: `node-gyp rebuild`
+1708 error Exit status 1
+1709 error Failed at the erlpack@0.1.0 install script 'node-gyp rebuild'.
+1709 error This is most likely a problem with the erlpack package,
+1709 error not with npm itself.
+1709 error Tell the author that this fails on your system:
+1709 error     node-gyp rebuild
+1709 error You can get information on how to open an issue for this project with:
+1709 error     npm bugs erlpack
+1709 error Or if that isn't available, you can get their info via:
+1709 error
+1709 error     npm owner ls erlpack
+1709 error There is likely additional logging output above.
+1710 verbose exit [ 1, true ]
+1711 verbose unbuild node_modules/erlpack
+1712 info preuninstall erlpack@0.1.0
+1713 info uninstall erlpack@0.1.0
+1714 verbose unbuild rmStuff erlpack@0.1.0 from /Users/Evan/discord-bot/node_modules
+1715 info postuninstall erlpack@0.1.0
+1716 silly gentlyRm /Users/Evan/discord-bot/node_modules/erlpack is being purged from base /Users/Evan/discord-bot
+1717 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/erlpack
+1718 silly vacuum-fs purging /Users/Evan/discord-bot/node_modules/erlpack
+1719 silly vacuum-fs quitting because other entries in /Users/Evan/discord-bot/node_modules
+1720 verbose unbuild node_modules/sodium
+1721 info preuninstall sodium@2.0.3
+1722 info uninstall sodium@2.0.3
+1723 verbose unbuild rmStuff sodium@2.0.3 from /Users/Evan/discord-bot/node_modules
+1724 info postuninstall sodium@2.0.3
+1725 silly gentlyRm /Users/Evan/discord-bot/node_modules/sodium is being purged from base /Users/Evan/discord-bot
+1726 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/sodium
+1727 silly vacuum-fs purging /Users/Evan/discord-bot/node_modules/sodium
+1728 silly vacuum-fs quitting because other entries in /Users/Evan/discord-bot/node_modules
+1729 verbose unbuild node_modules/discord.js
+1730 info preuninstall discord.js@11.4.2
+1731 info uninstall discord.js@11.4.2
+1732 verbose unbuild rmStuff discord.js@11.4.2 from /Users/Evan/discord-bot/node_modules
+1733 info postuninstall discord.js@11.4.2
+1734 silly gentlyRm /Users/Evan/discord-bot/node_modules/discord.js is being purged from base /Users/Evan/discord-bot
+1735 verbose gentlyRm don't care about contents; nuking /Users/Evan/discord-bot/node_modules/discord.js
+1736 silly vacuum-fs purging /Users/Evan/discord-bot/node_modules/discord.js
+1737 silly vacuum-fs quitting because other entries in /Users/Evan/discord-bot/node_modules
